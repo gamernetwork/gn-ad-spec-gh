@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `Gamer Network Ad Spec`,
-    description: ``,
+    title: `Gamer Network | Ad Specs`,
+    description: `Gamer Network Advertising Specification`,
     author: `@gamernetwork`,
   },
   plugins: [
@@ -10,7 +10,7 @@ module.exports = {
       resolve: `gatsby-source-filesystem`,
       options: {
         path: `${__dirname}/content`,
-        name: "markdown-pages",
+        name: 'markdown-pages',
       },
     },
     // transform md
