@@ -1,5 +1,12 @@
+html {
+  font-size: var(--font-size);
+}
+
 body {
-  padding-left: 18rem;
+  padding-left: 300px;
+  font-size: var(--font-size);
+  font-family: proxima-nova, sans-serif;
+  text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
