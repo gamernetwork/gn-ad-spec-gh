@@ -6,7 +6,7 @@ const LayoutWrapper = ({ children }) => (
   <Fragment>
     <SEO />
     <Navigation />
-    {children}
+    <main>{children}</main>
   </Fragment>
 );
 
