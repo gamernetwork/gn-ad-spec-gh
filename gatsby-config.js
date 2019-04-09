@@ -26,5 +26,7 @@ module.exports = {
     // image transformations
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
+    // styled components
+    `gatsby-plugin-styled-components`,
   ],
 };

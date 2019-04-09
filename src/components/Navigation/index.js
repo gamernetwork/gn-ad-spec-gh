@@ -1,5 +1,6 @@
 import React from 'react';
+import StyledNavigation from './StyledNavigation';
 
-const Navigation = () => <nav />;
+const Navigation = () => <StyledNavigation />;
 
 export default Navigation;
