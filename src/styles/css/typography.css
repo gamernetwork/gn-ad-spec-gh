@@ -20,6 +20,7 @@ h3 {
   line-height: 1;
   letter-spacing: -0.025em;
   color: #1a1a1a;
+  max-width: var(--max-copy-width);
 }
 
 h1 {
@@ -59,4 +60,27 @@ li {
 
 li:first-of-type {
   margin-top: 0;
+}
+
+table {
+  margin: calc(var(--multiplier) / 0.75) 0;
+  width: 100%;
+  border-collapse: collapse;
+  line-height: 1.2;
+  font-size: 0.884rem;
+  min-width: 700px;
+}
+
+tr {
+  text-align: left;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+th,
+td {
+  padding: 0.5rem;
+  border: 1px solid #ddd;
 }

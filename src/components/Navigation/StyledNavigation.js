@@ -4,14 +4,14 @@ const StyledNavigation = styled.nav`
   position: fixed;
   top: 0;
   left: 0;
-  width: var(--nav-width);
+  width: 100vw;
   height: 100vh;
+  transform: translateY(-100%);
   background: #222;
 
-  @media only screen and (max-width: 1024px) {
-    position: fixed;
-    width: 100vw;
-    transform: translateY(-100%);
+  @media only screen and (min-width: 1024px) {
+    width: var(--nav-width);
+    transform: none;
   }
 `;
 
