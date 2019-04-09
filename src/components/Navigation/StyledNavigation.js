@@ -4,7 +4,7 @@ const StyledNavigation = styled.nav`
   position: fixed;
   top: 0;
   left: 0;
-  width: 300px;
+  width: var(--nav-width);
   height: 100vh;
   background: #222;
 `;
