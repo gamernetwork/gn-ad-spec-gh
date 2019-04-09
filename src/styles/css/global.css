@@ -2,3 +2,9 @@ body {
   padding-left: var(--nav-width);
   /* background: #f9f9f9; */
 }
+
+@media only screen and (max-width: 1024px) {
+  body {
+    padding-left: 0;
+  }
+}

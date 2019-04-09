@@ -15,6 +15,14 @@ const ContentWrapper = styled.article`
   padding: 2rem;
   background: #fff;
   min-height: 100vh;
+
+  @media only screen and (max-width: 1600px) {
+    padding: 2rem 4rem;
+  }
+
+  @media only screen and (max-width: 1024px) {
+    padding: 1rem;
+  }
 `;
 
 const LayoutWrapper = ({ children }) => (
