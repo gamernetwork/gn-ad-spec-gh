@@ -1,10 +1,10 @@
 import React from 'react';
-import SEO from '../components/SEO';
+import LayoutWrapper from '../components/LayoutWrapper';
 
 const IndexPage = () => (
-  <div>
-    <SEO />
-  </div>
+  <LayoutWrapper>
+    <p>Hi</p>
+  </LayoutWrapper>
 );
 
 export default IndexPage;
