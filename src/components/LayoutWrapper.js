@@ -12,12 +12,12 @@ const ContentWrapper = styled.article`
   width: 100%;
   max-width: var(--wrapper-width);
   margin: 0 auto;
-  padding: 2rem;
+  padding-left: 2rem;
   background: #fff;
   min-height: 100vh;
 
-  @media only screen and (max-width: 1600px) {
-    padding: 2rem 4rem;
+  @media only screen and (max-width: 1920px) {
+    padding-left: 4rem;
   }
 
   @media only screen and (max-width: 1024px) {
