@@ -5,6 +5,9 @@ module.exports = {
     author: `@gamernetwork`,
   },
   plugins: [
+    // image transformations
+    `gatsby-transformer-sharp`,
+    `gatsby-plugin-sharp`,
     // for querying the filesystem
     {
       resolve: `gatsby-source-filesystem`,
@@ -23,9 +26,6 @@ module.exports = {
     },
     // for inserting stuff into html head
     `gatsby-plugin-react-helmet`,
-    // image transformations
-    `gatsby-transformer-sharp`,
-    `gatsby-plugin-sharp`,
     // styled components
     `gatsby-plugin-styled-components`,
   ],
