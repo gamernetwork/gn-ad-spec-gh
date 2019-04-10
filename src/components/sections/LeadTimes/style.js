@@ -5,8 +5,8 @@ const StyledIntroSection = styled(StyledSection)`
   display: flex;
   flex-wrap: wrap;
 
-  .intro__text {
-    width: 60%;
+  .lead-times__text {
+    width: 50%;
     padding-top: calc(var(--multiplier) / 1);
     padding-right: 2.5rem;
 
@@ -14,9 +14,13 @@ const StyledIntroSection = styled(StyledSection)`
       width: 100%;
       padding-right: 0;
     }
+
+    h3:first-of-type {
+      margin-top: calc(var(--multiplier) / 0.75);
+    }
   }
 
-  .intro__image {
+  .lead-times__image {
     flex-grow: 1;
     display: flex;
 
@@ -25,11 +29,13 @@ const StyledIntroSection = styled(StyledSection)`
     }
 
     .gatsby-image-wrapper {
-      flex-basis: 480px;
+      flex-basis: 100%;
+      height: 400px;
       margin: auto;
       margin-right: 0;
 
       @media only screen and (max-width: 800px) {
+        height: auto;
         margin-right: auto;
         margin-top: calc(var(--multiplier) / 0.75);
       }

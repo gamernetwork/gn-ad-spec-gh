@@ -3,6 +3,7 @@ import styled from 'styled-components';
 const StyledSection = styled.section`
   position: relative;
   width: 100%;
+  margin-bottom: calc(var(--multiplier) * 5);
 
   h2 {
     position: absolute;

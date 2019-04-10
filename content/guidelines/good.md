@@ -1,0 +1,10 @@
+- Ads adhere to LEAN guidelines
+- Third-party tags must be supplied by Google Ad Manager’s recognised creative vendors
+- Ads are within our file size and dimension guidelines
+- Third-party tags are secure and work across https sites
+- HTML5 bundles follow clickTag guidelines
+- CPU usage does not exceed 30%
+- Well thought out calls to action that maximise the ad space
+- GDPR compliant supply
+- High quality assets
+- As much lead time as possible prior to activation

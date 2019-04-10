@@ -11,13 +11,13 @@ const PageWrapper = styled.main`
 const ContentWrapper = styled.article`
   width: 100%;
   max-width: var(--wrapper-width);
-  margin: 4rem auto;
+  margin: 6rem auto;
   padding: 1rem;
   min-height: 100vh;
   background: #fff;
 
   @media only screen and (min-width: 1024px) {
-    padding: 2rem;
+    padding: calc(var(--multiplier) * 2);
   }
 `;
 

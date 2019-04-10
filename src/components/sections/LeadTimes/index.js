@@ -7,7 +7,7 @@ export default () => (
   <StaticQuery
     query={graphql`
       {
-        file(relativePath: { eq: "intro/index.md" }) {
+        file(relativePath: { eq: "leadtimes/index.md" }) {
           childMarkdownRemark {
             html
             frontmatter {
@@ -33,12 +33,12 @@ export default () => (
       <StyledIntroSection>
         <h2>{data.file.childMarkdownRemark.frontmatter.title}</h2>
         <div
-          className="intro__text"
+          className="lead-times__text"
           dangerouslySetInnerHTML={{
             __html: data.file.childMarkdownRemark.html,
           }}
         />
-        <div className="intro__image">
+        <div className="lead-times__image">
           <Img
             fluid={
               data.file.childMarkdownRemark.frontmatter.imageright

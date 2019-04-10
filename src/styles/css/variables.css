@@ -1,7 +1,7 @@
 :root {
   /* font size stuff */
   --min-font-size: 16;
-  --max-font-size: 24;
+  --max-font-size: 22;
   --min-font-size-px: calc(1px * var(--min-font-size));
   --max-font-size-px: calc(1px * var(--max-font-size));
   --font-size: var(--min-font-size-px);
@@ -48,7 +48,7 @@
 
 @media only screen and (min-width: 1920px) {
   :root {
-    --wrapper-width: 60rem;
+    --wrapper-width: 62rem;
     --nav-width: 300px;
     --font-size: var(--max-font-size-px);
   }
