@@ -25,15 +25,16 @@ export default () => (
           <h3>Good Practice:</h3>
           <ul
             dangerouslySetInnerHTML={{
-              __html: data.allMarkdownRemark.edges[0].node.html,
+              __html: data.allMarkdownRemark.edges[1].node.html,
             }}
           />
         </div>
         <div className="bad">
           <h3>Bad Practice:</h3>
+
           <ul
             dangerouslySetInnerHTML={{
-              __html: data.allMarkdownRemark.edges[1].node.html,
+              __html: data.allMarkdownRemark.edges[0].node.html,
             }}
           />
         </div>

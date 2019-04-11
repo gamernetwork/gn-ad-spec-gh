@@ -5,9 +5,23 @@ const StyledSection = styled.section`
   width: 100%;
   margin-bottom: calc(var(--multiplier) * 5);
 
+  @media only screen and (max-width: 1280px) {
+    margin-bottom: calc(var(--multiplier) * 2.5);
+  }
+
   h2 {
     position: absolute;
     margin: 0;
+  }
+
+  .gatsby-image-wrapper {
+    flex-basis: 480px;
+    margin: auto;
+
+    @media only screen and (max-width: 1280px) {
+      margin-right: auto;
+      margin-top: calc(var(--multiplier) / 0.75);
+    }
   }
 `;
 

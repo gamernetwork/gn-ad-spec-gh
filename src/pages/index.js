@@ -4,6 +4,7 @@ import Hero from '../components/Hero';
 import Intro from '../components/sections/Intro';
 import LeadTimes from '../components/sections/LeadTimes';
 import GuideLines from '../components/sections/Guidelines';
+import Takeovers from '../components/sections/Takeovers';
 
 const IndexPage = () => {
   return (
@@ -13,6 +14,7 @@ const IndexPage = () => {
         <Intro />
         <LeadTimes />
         <GuideLines />
+        <Takeovers />
       </LayoutWrapper>
     </Fragment>
   );

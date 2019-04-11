@@ -5,7 +5,7 @@ import Navigation from './Navigation';
 
 const PageWrapper = styled.main`
   width: 100%;
-  max-width: 1920px;
+  max-width: 1600px;
 `;
 
 const ContentWrapper = styled.article`
@@ -17,6 +17,10 @@ const ContentWrapper = styled.article`
   background: #fff;
 
   @media only screen and (min-width: 1024px) {
+    padding: calc(var(--multiplier) * 1.5);
+  }
+
+  @media only screen and (min-width: 1316px) {
     padding: calc(var(--multiplier) * 2);
   }
 `;

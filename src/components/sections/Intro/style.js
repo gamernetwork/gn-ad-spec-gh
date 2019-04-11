@@ -7,10 +7,10 @@ const StyledIntroSection = styled(StyledSection)`
 
   .intro__text {
     width: 60%;
-    padding-top: calc(var(--multiplier) / 1);
-    padding-right: 2.5rem;
+    padding-top: calc(var(--multiplier) / 0.75);
+    padding-right: 3rem;
 
-    @media only screen and (max-width: 800px) {
+    @media only screen and (max-width: 1280px) {
       width: 100%;
       padding-right: 0;
     }
@@ -20,19 +20,8 @@ const StyledIntroSection = styled(StyledSection)`
     flex-grow: 1;
     display: flex;
 
-    @media only screen and (max-width: 800px) {
+    @media only screen and (max-width: 1280px) {
       width: 100%;
-    }
-
-    .gatsby-image-wrapper {
-      flex-basis: 480px;
-      margin: auto;
-      margin-right: 0;
-
-      @media only screen and (max-width: 800px) {
-        margin-right: auto;
-        margin-top: calc(var(--multiplier) / 0.75);
-      }
     }
   }
 `;

@@ -42,6 +42,7 @@ p {
   margin-top: calc(var(--multiplier) / 1.25);
   word-wrap: break-word;
   overflow-wrap: break-word;
+  hyphens: auto;
   max-width: var(--max-copy-width);
 }
 
@@ -58,6 +59,9 @@ ol {
 
 li {
   margin-top: calc(var(--multiplier) / 4);
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  hyphens: auto;
 }
 
 li:first-of-type {
