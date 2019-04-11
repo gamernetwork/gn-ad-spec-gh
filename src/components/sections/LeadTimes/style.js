@@ -7,7 +7,6 @@ const StyledIntroSection = styled(StyledSection)`
 
   .lead-times__text {
     width: 60%;
-    padding-top: calc(var(--multiplier) / 1);
     padding-right: 3rem;
 
     @media only screen and (max-width: 1280px) {

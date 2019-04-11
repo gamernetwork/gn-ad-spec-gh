@@ -8,7 +8,6 @@ const StyledGuidelinesSection = styled(StyledSection)`
 
   .good,
   .bad {
-    margin-top: calc(var(--multiplier) / 0.75);
     width: 50%;
 
     @media only screen and (max-width: 800px) {

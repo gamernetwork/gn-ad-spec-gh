@@ -8,7 +8,6 @@ const StyledTakeoverSection = styled(StyledSection)`
   .text-wrapper {
     width: 60%;
     padding-right: 3rem;
-    padding-top: calc(var(--multiplier) / 0.75);
 
     @media only screen and (max-width: 1280px) {
       width: 100%;

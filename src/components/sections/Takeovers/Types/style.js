@@ -8,24 +8,16 @@ const StyledTakeoverType = styled.div`
 
   h3 {
     margin-top: 0;
-    margin-bottom: calc(var(--multiplier) * 0.75);
+    margin-bottom: calc(var(--multiplier) * 1);
   }
 
   .site-info {
-    margin-bottom: calc(var(--multiplier) * 0.75);
+    margin-bottom: calc(var(--multiplier) * 1);
     color: #777;
 
     span {
       font-weight: 700;
       color: #333;
-    }
-  }
-
-  .table-wrapper {
-    width: 100%;
-
-    @media only screen and (max-width: 738px) {
-      overflow-x: scroll;
     }
   }
 `;

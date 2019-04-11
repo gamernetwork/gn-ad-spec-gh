@@ -7,7 +7,6 @@ const StyledIntroSection = styled(StyledSection)`
 
   .intro__text {
     width: 60%;
-    padding-top: calc(var(--multiplier) / 0.75);
     padding-right: 3rem;
 
     @media only screen and (max-width: 1280px) {

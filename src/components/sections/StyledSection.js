@@ -3,15 +3,31 @@ import styled from 'styled-components';
 const StyledSection = styled.section`
   position: relative;
   width: 100%;
-  margin-bottom: calc(var(--multiplier) * 5);
+  margin-bottom: calc(var(--multiplier) * 4);
+  padding-top: calc(var(--multiplier) / 0.4375);
+  border-top: 2px solid #222;
 
   @media only screen and (max-width: 1280px) {
-    margin-bottom: calc(var(--multiplier) * 2.5);
+    margin-bottom: calc(var(--multiplier) * 2);
   }
 
   h2 {
     position: absolute;
+    top: 0;
+    left: 0;
     margin: 0;
+    background: #222;
+    color: #fff;
+    padding: 0.5rem 0.875rem;
+    line-height: 1;
+  }
+
+  .table-wrapper {
+    width: 100%;
+
+    @media only screen and (max-width: 738px) {
+      overflow-x: scroll;
+    }
   }
 
   .gatsby-image-wrapper {

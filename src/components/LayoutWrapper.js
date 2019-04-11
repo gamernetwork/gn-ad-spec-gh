@@ -18,8 +18,7 @@ const ContentWrapper = styled.article`
   min-height: 100vh;
 
   @media only screen and (min-width: 1024px) {
-    padding: calc(var(--multiplier) * 2) calc(var(--multiplier) * 1.5)
-      calc(var(--multiplier) * 2) calc(var(--multiplier) * 1.5);
+    padding: calc(var(--multiplier) * 3);
   }
 `;
 

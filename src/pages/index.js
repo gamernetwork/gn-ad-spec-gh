@@ -5,6 +5,7 @@ import Intro from '../components/sections/Intro';
 import LeadTimes from '../components/sections/LeadTimes';
 import GuideLines from '../components/sections/Guidelines';
 import Takeovers from '../components/sections/Takeovers';
+import RunOfNetwork from '../components/sections/RunOfNetwork';
 
 const IndexPage = () => {
   return (
@@ -15,6 +16,7 @@ const IndexPage = () => {
         <LeadTimes />
         <GuideLines />
         <Takeovers />
+        <RunOfNetwork />
       </LayoutWrapper>
     </Fragment>
   );

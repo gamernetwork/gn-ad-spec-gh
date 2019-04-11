@@ -10,7 +10,7 @@
   --multiplier: 1.4rem;
 
   /* modular scale stuff */
-  --ms-ratio: 1.333;
+  --ms-ratio: 1.25;
   --ms-base: 1rem;
   --ms0: var(--ms-base);
   --ms1: calc(var(--ms-ratio) * var(--ms0));
