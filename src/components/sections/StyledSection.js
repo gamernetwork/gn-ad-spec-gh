@@ -18,7 +18,7 @@ const StyledSection = styled.section`
     margin: 0;
     background: #222;
     color: #fff;
-    padding: 0.5rem 0.875rem;
+    padding: 0.5rem 1rem;
     line-height: 1;
   }
 

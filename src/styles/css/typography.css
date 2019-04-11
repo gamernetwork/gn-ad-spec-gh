@@ -34,7 +34,6 @@ h2 {
 h3 {
   font-size: var(--ms1);
   margin-top: calc(var(--multiplier) / 0.75);
-  font-weight: 500;
 }
 
 p {
