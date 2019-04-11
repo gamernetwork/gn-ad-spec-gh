@@ -2,6 +2,7 @@ import React from 'react';
 import { StaticQuery, graphql } from 'gatsby';
 import Img from 'gatsby-image';
 import StyledTakeoverSection from './style';
+import Types from './Types';
 
 export default () => (
   <StaticQuery
@@ -46,6 +47,7 @@ export default () => (
             }
           />
         </div>
+        <Types />
       </StyledTakeoverSection>
     )}
   />

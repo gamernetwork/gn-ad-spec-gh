@@ -9,7 +9,7 @@ body {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: rgba(0, 0, 0, 0.84);
+  color: #333;
 }
 
 h1,
@@ -20,7 +20,7 @@ h3 {
   line-height: 1;
   letter-spacing: -0.025em;
   max-width: var(--max-copy-width);
-  color: rgba(0, 0, 0, 0.93);
+  color: #222;
 }
 
 h1 {
@@ -69,12 +69,13 @@ li:first-of-type {
 }
 
 table {
-  margin: calc(var(--multiplier) / 0.75) 0;
+  margin: calc(var(--multiplier) / 1) 0;
   width: 100%;
   border-collapse: collapse;
   line-height: 1.2;
   font-size: 0.884rem;
   min-width: 700px;
+  border-radius: 4px;
 }
 
 tr {
