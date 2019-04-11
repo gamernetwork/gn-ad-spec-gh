@@ -20,7 +20,7 @@
   --ms5: calc(var(--ms-ratio) * var(--ms4));
 
   /* wrappers */
-  --wrapper-width: 62rem;
+  --wrapper-width: 64rem;
   --nav-width: 16vmax;
   --max-copy-width: 100%;
 }
