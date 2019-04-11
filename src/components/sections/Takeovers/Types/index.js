@@ -23,19 +23,21 @@ export default () => (
       }
     `}
     render={data =>
-      data.allMarkdownRemark.edges.map(({ node: takeoverType }) => (
-        <StyledTakeoverType key={takeoverType.id}>
+      data.allMarkdownRemark.edges.map(({ node: takeoverType }, index) => (
+        <StyledTakeoverType order={index} key={takeoverType.id}>
           <h3>{takeoverType.frontmatter.title}</h3>
-          <p>
-            <span>Sites:</span>{' '}
-            {takeoverType.frontmatter.sites.map((site, index) => {
-              if (index !== takeoverType.frontmatter.sites.length - 1) {
-                return site.charAt(0).toUpperCase() + site.slice(1) + ', ';
-              } else {
-                return site.charAt(0).toUpperCase() + site.slice(1);
-              }
-            })}
-          </p>
+          {takeoverType.frontmatter.sites.length > 0 && (
+            <p>
+              <span>Sites:</span>{' '}
+              {takeoverType.frontmatter.sites.map((site, index) => {
+                if (index !== takeoverType.frontmatter.sites.length - 1) {
+                  return site.charAt(0).toUpperCase() + site.slice(1) + ', ';
+                } else {
+                  return site.charAt(0).toUpperCase() + site.slice(1);
+                }
+              })}
+            </p>
+          )}
           <div
             className="table-wrapper"
             dangerouslySetInnerHTML={{ __html: takeoverType.html }}

@@ -6,22 +6,20 @@ import Navigation from './Navigation';
 const PageWrapper = styled.main`
   width: 100%;
   max-width: 1600px;
+  background: #fff;
 `;
 
 const ContentWrapper = styled.article`
   width: 100%;
   max-width: var(--wrapper-width);
-  margin: 6rem auto;
+  margin: 12rem auto;
   padding: 1rem;
+  padding-top: calc(var(--multiplier) * 2);
   min-height: 100vh;
-  background: #fff;
 
   @media only screen and (min-width: 1024px) {
-    padding: calc(var(--multiplier) * 1.5);
-  }
-
-  @media only screen and (min-width: 1316px) {
-    padding: calc(var(--multiplier) * 2);
+    padding: calc(var(--multiplier) * 2) calc(var(--multiplier) * 1.5)
+      calc(var(--multiplier) * 2) calc(var(--multiplier) * 1.5);
   }
 `;
 

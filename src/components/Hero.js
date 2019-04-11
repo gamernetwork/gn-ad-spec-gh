@@ -4,7 +4,7 @@ const Hero = styled.div`
   position: fixed;
   top: 0;
   left: calc(var(--nav-width));
-  width: calc(100vw - var(--nav-width));
+  width: 1600px;
   height: 12rem;
   background: #555;
   z-index: -1;
