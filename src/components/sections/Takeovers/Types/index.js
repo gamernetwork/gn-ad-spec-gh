@@ -27,7 +27,7 @@ export default () => (
         <StyledTakeoverType order={index} key={takeoverType.id}>
           <h3>{takeoverType.frontmatter.title}</h3>
           {takeoverType.frontmatter.sites.length > 0 && (
-            <p>
+            <p className="site-info">
               <span>Sites:</span>{' '}
               {takeoverType.frontmatter.sites.map((site, index) => {
                 if (index !== takeoverType.frontmatter.sites.length - 1) {

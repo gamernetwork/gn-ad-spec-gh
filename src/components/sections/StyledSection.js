@@ -15,11 +15,11 @@ const StyledSection = styled.section`
   }
 
   .gatsby-image-wrapper {
-    flex-basis: 480px;
+    flex-basis: var(--max-copy-width);
     margin: auto;
 
     @media only screen and (max-width: 1280px) {
-      margin-right: auto;
+      margin-left: 0;
       margin-top: calc(var(--multiplier) / 0.75);
     }
   }

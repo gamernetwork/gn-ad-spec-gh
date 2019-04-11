@@ -69,7 +69,6 @@ li:first-of-type {
 }
 
 table {
-  margin: calc(var(--multiplier) / 1) 0;
   width: 100%;
   border-collapse: collapse;
   line-height: 1.2;
