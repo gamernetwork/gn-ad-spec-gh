@@ -15,8 +15,8 @@ const IndexPage = () => {
         <Intro />
         <LeadTimes />
         <GuideLines />
-        <Takeovers />
         <RunOfNetwork />
+        <Takeovers />
       </LayoutWrapper>
     </Fragment>
   );
