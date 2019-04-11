@@ -5,6 +5,10 @@ const StyledTakeoverSection = styled(StyledSection)`
   display: flex;
   flex-wrap: wrap;
 
+  p:first-of-type {
+    margin-top: 0;
+  }
+
   .text-wrapper {
     width: 60%;
     padding-right: 3rem;

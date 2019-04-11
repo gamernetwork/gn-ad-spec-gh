@@ -6,6 +6,10 @@ const StyledGuidelinesSection = styled(StyledSection)`
   justify-content: space-between;
   flex-wrap: wrap;
 
+  h3:first-of-type {
+    margin-top: 0;
+  }
+
   .good,
   .bad {
     width: 50%;

@@ -5,6 +5,10 @@ const StyledIntroSection = styled(StyledSection)`
   display: flex;
   flex-wrap: wrap;
 
+  h3:first-of-type {
+    margin-top: 0;
+  }
+
   .lead-times__text {
     width: 60%;
     padding-right: 3rem;
@@ -12,10 +16,6 @@ const StyledIntroSection = styled(StyledSection)`
     @media only screen and (max-width: 1280px) {
       width: 100%;
       padding-right: 0;
-    }
-
-    h3:first-of-type {
-      margin-top: calc(var(--multiplier) / 0.75);
     }
   }
 

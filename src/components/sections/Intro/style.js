@@ -5,6 +5,10 @@ const StyledIntroSection = styled(StyledSection)`
   display: flex;
   flex-wrap: wrap;
 
+  p:first-of-type {
+    margin-top: 0;
+  }
+
   .intro__text {
     width: 60%;
     padding-right: 3rem;

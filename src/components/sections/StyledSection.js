@@ -4,12 +4,9 @@ const StyledSection = styled.section`
   position: relative;
   width: 100%;
   margin-bottom: calc(var(--multiplier) * 4);
-  padding-top: calc(var(--multiplier) / 0.4375);
+  padding-top: calc(var(--multiplier) / 0.325);
   border-top: 2px solid #222;
-
-  @media only screen and (max-width: 1280px) {
-    margin-bottom: calc(var(--multiplier) * 2);
-  }
+  padding-left: calc(var(--multiplier) * 1);
 
   h2 {
     position: absolute;
@@ -18,7 +15,7 @@ const StyledSection = styled.section`
     margin: 0;
     background: #222;
     color: #fff;
-    padding: 0.5rem 1rem;
+    padding: 0.5rem 1.25rem;
     line-height: 1;
   }
 
