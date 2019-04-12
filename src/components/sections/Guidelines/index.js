@@ -23,7 +23,7 @@ export default () => (
         <h2>General Guidelines</h2>
         <div className="good">
           <h3>Good Practice:</h3>
-          <ul
+          <div
             dangerouslySetInnerHTML={{
               __html: data.allMarkdownRemark.edges[1].node.html,
             }}
@@ -32,7 +32,7 @@ export default () => (
         <div className="bad">
           <h3>Bad Practice:</h3>
 
-          <ul
+          <div
             dangerouslySetInnerHTML={{
               __html: data.allMarkdownRemark.edges[0].node.html,
             }}

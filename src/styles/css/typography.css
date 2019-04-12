@@ -47,7 +47,7 @@ p {
 
 ul,
 ol {
-  margin-left: 0.5rem;
+  margin-left: 1rem;
   margin-top: calc(var(--multiplier) / 1.25);
 }
 
