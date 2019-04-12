@@ -20,8 +20,8 @@ const IndexPage = () => {
         <Intro />
         <LeadTimes />
         <GuideLines />
-        <RunOfNetwork />
         <Takeovers />
+        <RunOfNetwork />
         <HTML5 />
         <Custom />
         <Programatic />
