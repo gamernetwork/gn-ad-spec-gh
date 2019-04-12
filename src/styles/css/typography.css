@@ -49,6 +49,11 @@ ul,
 ol {
   margin-left: 1rem;
   margin-top: calc(var(--multiplier) / 1.25);
+  max-width: var(--max-copy-width);
+}
+
+li p + ul {
+  margin-top: calc(var(--multiplier) / 4);
 }
 
 li {

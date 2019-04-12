@@ -5,13 +5,12 @@ const StyledTakeoverSection = styled(StyledSection)`
   display: flex;
   flex-wrap: wrap;
 
-  p:first-of-type {
-    margin-top: 0;
-  }
-
   .text-wrapper {
     width: 60%;
     padding-right: 3rem;
+    p:first-of-type {
+      margin-top: 0;
+    }
 
     @media only screen and (max-width: 1280px) {
       width: 100%;
@@ -26,6 +25,10 @@ const StyledTakeoverSection = styled(StyledSection)`
     @media only screen and (max-width: 1280px) {
       width: 100%;
     }
+  }
+
+  .html5-pointer {
+    margin-top: calc(var(--multiplier) * 1.5);
   }
 `;
 

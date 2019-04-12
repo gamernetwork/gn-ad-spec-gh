@@ -48,6 +48,10 @@ export default () => (
             All ads can be created in house via the Gamer Creative offering.
           </strong>
         </p>
+        <p>
+          Please refer to our <a href="#">HTML5 Guidelines</a> if supplying
+          HTML5 creatives
+        </p>
       </StyledRONSection>
     )}
   />

@@ -6,6 +6,7 @@ import LeadTimes from '../components/sections/LeadTimes';
 import GuideLines from '../components/sections/Guidelines';
 import Takeovers from '../components/sections/Takeovers';
 import RunOfNetwork from '../components/sections/RunOfNetwork';
+import HTML5 from '../components/sections/HTML5';
 import Programatic from '../components/sections/Programatic';
 import Compliance from '../components/sections/Compliance';
 
@@ -19,6 +20,7 @@ const IndexPage = () => {
         <GuideLines />
         <RunOfNetwork />
         <Takeovers />
+        <HTML5 />
         <Programatic />
         <Compliance />
       </LayoutWrapper>

@@ -48,6 +48,10 @@ export default () => (
           />
         </div>
         <Types />
+        <p className="html5-pointer">
+          Please refer to our <a href="#">HTML5 Guidelines</a> if supplying
+          HTML5 creatives
+        </p>
       </StyledTakeoverSection>
     )}
   />
