@@ -42,6 +42,8 @@ export default () => (
             className="table-wrapper"
             dangerouslySetInnerHTML={{ __html: takeoverType.html }}
           />
+          <button>Download PSD Template</button>
+          <hr />
         </StyledTakeoverType>
       ))
     }

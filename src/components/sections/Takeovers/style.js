@@ -22,6 +22,10 @@ const StyledTakeoverSection = styled(StyledSection)`
     width: 40%;
     display: flex;
 
+    .gatsby-image-wrapper {
+      margin-top: 0;
+    }
+
     @media only screen and (max-width: 1280px) {
       width: 100%;
     }

@@ -15,7 +15,7 @@ export default () => (
               title
               imageright {
                 childImageSharp {
-                  fluid(maxWidth: 500) {
+                  fluid(maxWidth: 1280) {
                     sizes
                     srcSet
                     aspectRatio

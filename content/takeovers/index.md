@@ -1,6 +1,6 @@
 ---
 title: 'Takeovers'
-imageright: './right.png'
+imageright: './GFuel_Skin_Showcase.jpg'
 ---
 
 Site Takeovers are a high impact desktop format that pairs the top leaderboard & halfpage units together with a re-skin of the site background. Due to site layout the format for this creative varies by domain, so it is incredibly important that the right template is used for your campaign. If you are unsure about what template is required please contact your sales representative or ad ops team member for clarification.
