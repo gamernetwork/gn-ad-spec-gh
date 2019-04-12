@@ -11,21 +11,6 @@ const StyledTakeoverType = styled.div`
     margin-bottom: calc(var(--multiplier) * 1);
   }
 
-  button {
-    border: none;
-    font-size: 0.883rem;
-    padding: 0.375rem 0.75rem;
-    border: 2px solid #222;
-    color: #222;
-    margin-top: calc(var(--multiplier) * 1.25);
-    cursor: pointer;
-
-    &:hover {
-      background: #222;
-      color: #fff;
-    }
-  }
-
   hr {
     margin-top: calc(var(--multiplier) * 2.5);
     opacity: 0.25;
