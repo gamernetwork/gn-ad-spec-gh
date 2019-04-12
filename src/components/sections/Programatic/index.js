@@ -15,7 +15,7 @@ export default () => (
     `}
     render={data => (
       <StyledProgramaticSection>
-        <h2>Programatic</h2>
+        <h2>Programmatic</h2>
         <div
           dangerouslySetInnerHTML={{
             __html: data.file.childMarkdownRemark.html,
