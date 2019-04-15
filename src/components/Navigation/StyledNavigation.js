@@ -6,8 +6,10 @@ const StyledNavigation = styled.nav`
   left: 0;
   width: 100vw;
   height: 100vh;
-  transform: translateY(-100%);
+  transform: translateX(-100%);
   background: #222;
+  transition: transform 300ms ease;
+  z-index: 1;
 
   li {
     list-style: none;

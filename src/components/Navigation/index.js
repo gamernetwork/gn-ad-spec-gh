@@ -1,7 +1,6 @@
 import React from 'react';
 import Scrollspy from 'react-scrollspy';
 import StyledNavigation from './StyledNavigation';
-import AnchorLink from 'react-anchor-link-smooth-scroll';
 
 const Navigation = () => (
   <StyledNavigation>
@@ -21,34 +20,34 @@ const Navigation = () => (
       currentClassName="is-current"
     >
       <li>
-        <AnchorLink href="#introduction">Introduction</AnchorLink>
+        <a href="#introduction">Introduction</a>
       </li>
       <li>
-        <AnchorLink href="#lead-times">Lead Times</AnchorLink>
+        <a href="#lead-times">Lead Times</a>
       </li>
       <li>
-        <AnchorLink href="#guidelines">Guidelines</AnchorLink>
+        <a href="#guidelines">Guidelines</a>
       </li>
       <li>
-        <AnchorLink href="#takeovers">Takeovers</AnchorLink>
+        <a href="#takeovers">Takeovers</a>
       </li>
       <li>
-        <AnchorLink href="#run-of-network">Run Of Network</AnchorLink>
+        <a href="#run-of-network">Run Of Network</a>
       </li>
       <li>
-        <AnchorLink href="#html5">HTML5</AnchorLink>
+        <a href="#html5">HTML5</a>
       </li>
       <li>
-        <AnchorLink href="#custom-units">Custom Units</AnchorLink>
+        <a href="#custom-units">Custom Units</a>
       </li>
       <li>
-        <AnchorLink href="#programmatic">Programmatic</AnchorLink>
+        <a href="#programmatic">Programmatic</a>
       </li>
       <li>
-        <AnchorLink href="#in-stream">In-Stream</AnchorLink>
+        <a href="#in-stream">In-Stream</a>
       </li>
       <li>
-        <AnchorLink href="#compliance">Compliance</AnchorLink>
+        <a href="#compliance">Compliance</a>
       </li>
     </Scrollspy>
   </StyledNavigation>
