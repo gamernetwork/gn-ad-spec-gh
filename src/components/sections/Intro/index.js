@@ -29,7 +29,7 @@ export default () => (
       }
     `}
     render={data => (
-      <StyledIntroSection>
+      <StyledIntroSection id="introduction">
         <h2>Introduction</h2>
         <div
           className="intro__text"

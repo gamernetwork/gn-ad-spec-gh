@@ -19,7 +19,7 @@ export default () => (
       }
     `}
     render={data => (
-      <StyledRONSection>
+      <StyledRONSection id="run-of-network">
         <h2>Run Of Network</h2>
         <p>
           The following ads sizes run across all Gamer Network sites where those
@@ -49,8 +49,8 @@ export default () => (
           </strong>
         </p>
         <p>
-          Please refer to our <a href="#">HTML5 Guidelines</a> if supplying
-          HTML5 creatives
+          Please refer to our <a href="#html5-guidelines">HTML5 Guidelines</a>{' '}
+          if supplying HTML5 creatives
         </p>
       </StyledRONSection>
     )}

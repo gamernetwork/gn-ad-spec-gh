@@ -34,7 +34,7 @@ export default () => (
       }
     `}
     render={data => (
-      <StyledCustomSection>
+      <StyledCustomSection id="custom-units">
         <h2>Custom Units</h2>
         <p>
           Gamer Network offers rich media ads which differ from standard IAB

@@ -14,7 +14,7 @@ export default () => (
       }
     `}
     render={data => (
-      <StyledProgramaticSection>
+      <StyledProgramaticSection id="programmatic">
         <h2>Programmatic</h2>
         <div
           dangerouslySetInnerHTML={{

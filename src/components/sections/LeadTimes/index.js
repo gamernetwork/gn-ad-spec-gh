@@ -29,7 +29,7 @@ export default () => (
       }
     `}
     render={data => (
-      <StyledIntroSection>
+      <StyledIntroSection id="lead-times">
         <h2>Lead Times</h2>
         <div
           className="lead-times__text"

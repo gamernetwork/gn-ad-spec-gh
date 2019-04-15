@@ -19,7 +19,7 @@ export default () => (
       }
     `}
     render={data => (
-      <StyledComplianceSection>
+      <StyledComplianceSection id="compliance">
         <h2>Compliance</h2>
         <div
           dangerouslySetInnerHTML={{

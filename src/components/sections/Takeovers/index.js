@@ -31,7 +31,7 @@ export default () => (
       }
     `}
     render={data => (
-      <StyledTakeoverSection>
+      <StyledTakeoverSection id="takeovers">
         <h2>Takeovers</h2>
         <div
           className="text-wrapper"
