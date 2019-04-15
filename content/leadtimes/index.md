@@ -1,11 +1,10 @@
 ---
-title: "Lead Times"
-imageright: "./right.png"
+imageright: './right.png'
 ---
 
 ### Direct:
 
-When supplying ads directly to the trafficking team please allow two working days for Q&A and approval with the campaign manager on the advertiser side. 
+When supplying ads directly to the trafficking team please allow two working days for Q&A and approval with the campaign manager on the advertiser side.
 
 ### Gamer Creative:
 

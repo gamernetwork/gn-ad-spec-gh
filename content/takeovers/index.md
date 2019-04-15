@@ -1,5 +1,4 @@
 ---
-title: 'Takeovers'
 imageright: './GFuel_Skin_Showcase.jpg'
 ---
 

@@ -11,7 +11,6 @@ export default () => (
           childMarkdownRemark {
             html
             frontmatter {
-              title
               imageright {
                 childImageSharp {
                   fluid(maxWidth: 500) {
@@ -31,7 +30,7 @@ export default () => (
     `}
     render={data => (
       <StyledIntroSection>
-        <h2>{data.file.childMarkdownRemark.frontmatter.title}</h2>
+        <h2>Lead Times</h2>
         <div
           className="lead-times__text"
           dangerouslySetInnerHTML={{

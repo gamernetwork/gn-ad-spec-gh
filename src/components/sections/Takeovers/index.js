@@ -32,7 +32,7 @@ export default () => (
     `}
     render={data => (
       <StyledTakeoverSection>
-        <h2>{data.file.childMarkdownRemark.frontmatter.title}</h2>
+        <h2>Takeovers</h2>
         <div
           className="text-wrapper"
           dangerouslySetInnerHTML={{
