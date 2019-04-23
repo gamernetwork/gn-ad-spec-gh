@@ -7,7 +7,7 @@ const StyledInStreamSection = styled(StyledSection)`
   }
 
   table {
-    margin: calc(var(--multiplier) * 1.5) 0 calc(var(--multiplier) * 1.75) 0;
+    margin: 1.5rem 0;
   }
 `;
 

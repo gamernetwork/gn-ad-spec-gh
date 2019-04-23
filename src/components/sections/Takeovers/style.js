@@ -22,17 +22,13 @@ const StyledTakeoverSection = styled(StyledSection)`
     width: 40%;
     display: flex;
 
-    .gatsby-image-wrapper {
-      margin-top: 0;
-    }
-
     @media only screen and (max-width: 1280px) {
       width: 100%;
     }
   }
 
   .html5-pointer {
-    margin-top: calc(var(--multiplier) * 1.5);
+    margin-top: 3rem;
   }
 `;
 

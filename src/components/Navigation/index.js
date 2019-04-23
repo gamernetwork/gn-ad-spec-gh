@@ -6,7 +6,7 @@ import StyledNavigation from './StyledNavigation';
 class Navigation extends Component {
   state = {
     windowWidth: window.innerWidth,
-    hideNav: false,
+    hideNav: window.innerWidth <= 1024 ? true : false,
   };
 
   onResize = windowSize => {

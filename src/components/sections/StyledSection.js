@@ -3,10 +3,10 @@ import styled from 'styled-components';
 const StyledSection = styled.section`
   position: relative;
   width: 100%;
-  margin-bottom: calc(var(--multiplier) * 4);
-  padding-top: calc(var(--multiplier) / 0.275);
+  margin-bottom: 5rem;
+  padding-top: 5rem;
   border-top: 2px solid #222;
-  padding-left: calc(var(--multiplier) * 1);
+  padding-left: 1.5rem;
 
   @media only screen and (max-width: 1024px) {
     padding-left: 0;
@@ -17,7 +17,7 @@ const StyledSection = styled.section`
     top: 0;
     left: 0;
     margin: 0;
-    background: #222;
+    background: var(--c-blue-1);
     color: #fff;
     padding: 0.625rem 1.5rem;
     line-height: 1;
@@ -37,7 +37,7 @@ const StyledSection = styled.section`
 
     @media only screen and (max-width: 1280px) {
       margin-left: 0;
-      margin-top: calc(var(--multiplier) / 0.75);
+      margin-top: 1.5rem;
     }
   }
 `;

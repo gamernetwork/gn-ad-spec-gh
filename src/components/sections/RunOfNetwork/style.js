@@ -7,8 +7,8 @@ const StyledRONSection = styled(StyledSection)`
   }
 
   .ron-table {
-    margin-bottom: calc(var(--multiplier) * 2);
-    margin-top: calc(var(--multiplier) * 1);
+    margin-bottom: 3rem;
+    margin-top: 1.5rem;
   }
 `;
 

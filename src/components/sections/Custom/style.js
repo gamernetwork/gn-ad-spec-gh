@@ -11,19 +11,23 @@ const StyledCustomSection = styled(StyledSection)`
   }
 
   button {
-    margin-right: calc(var(--multiplier) * 0.75);
+    margin-right: 1rem;
   }
 
   hr {
-    margin: calc(var(--multiplier) * 2.5) 0;
+    margin: 3rem 0;
     opacity: 0.25;
+  }
+
+  .table-wrapper {
+    margin-top: 2rem;
   }
 
   .custom-unit-wrapper {
     max-width: var(--max-copy-width);
 
     .gatsby-image-wrapper {
-      margin: calc(var(--multiplier) * 1.125) 0 calc(var(--multiplier) * 1.5) 0;
+      margin: 1.5rem 0;
     }
   }
 `;

@@ -14,11 +14,11 @@ const ContentWrapper = styled.article`
   max-width: var(--wrapper-width);
   margin: 12rem auto;
   padding: 1rem;
-  padding-top: calc(var(--multiplier) * 2);
+  padding-top: 3rem;
   min-height: 100vh;
 
   @media only screen and (min-width: 1024px) {
-    padding: calc(var(--multiplier) * 2);
+    padding: 3rem;
   }
 `;
 

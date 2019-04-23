@@ -8,18 +8,26 @@ const StyledNavigation = styled.nav`
   height: 100vh;
   transition: transform 300ms ease;
   z-index: 1;
-  background: #222;
+  background: var(--c-blue-1);
+  display: flex;
+
+  ul {
+    margin: auto;
+    text-align: center;
+  }
 
   li {
     list-style: none;
+    margin-bottom: 1rem;
+    transition: transform 200ms ease;
+    transform: translate3d(0, 0, 0);
+    will-change: transform;
+    -webkit-backface-visibility: hidden;
   }
 
   .is-current {
     text-decoration: underline;
-
-    > * {
-      color: deeppink;
-    }
+    transform: scale(1.1);
   }
 
   a {
@@ -28,12 +36,11 @@ const StyledNavigation = styled.nav`
   }
 
   &[aria-hidden='true'] {
-    transform: translateY(calc(100% - 2.5rem));
+    transform: translateY(calc(100% - 3rem));
   }
 
   @media only screen and (max-width: 1024px) {
     width: 100vw;
-    background: #222;
     height: auto;
     bottom: 0;
     top: auto;
@@ -44,7 +51,7 @@ const StyledNavigation = styled.nav`
 
     &:after {
       position: absolute;
-      top: 0.75rem;
+      top: 1rem;
       left: 50%;
       transform: translateX(-50%);
       content: 'MENU';
