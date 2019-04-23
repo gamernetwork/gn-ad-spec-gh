@@ -10,6 +10,7 @@ const StyledNavigation = styled.nav`
   z-index: 1;
   background: var(--c-blue-1);
   display: flex;
+  transform: translateY(calc(100% - 3rem));
 
   ul {
     width: 100%;
@@ -61,8 +62,8 @@ const StyledNavigation = styled.nav`
     text-decoration: none;
   }
 
-  &[aria-hidden='true'] {
-    transform: translateY(calc(100% - 3rem));
+  &[aria-hidden='false'] {
+    transform: translateY(0);
   }
 
   @media only screen and (max-width: 1024px) {
