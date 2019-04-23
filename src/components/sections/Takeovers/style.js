@@ -21,6 +21,7 @@ const StyledTakeoverSection = styled(StyledSection)`
   .img-wrapper {
     width: 40%;
     display: flex;
+    align-self: flex-start;
 
     @media only screen and (max-width: 1280px) {
       width: 100%;

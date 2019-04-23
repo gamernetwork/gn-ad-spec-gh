@@ -18,7 +18,7 @@ const ContentWrapper = styled.article`
   min-height: 100vh;
 
   @media only screen and (min-width: 1024px) {
-    padding: 3rem;
+    padding: 4.5rem;
   }
 `;
 

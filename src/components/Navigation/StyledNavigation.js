@@ -12,22 +12,41 @@ const StyledNavigation = styled.nav`
   display: flex;
 
   ul {
+    width: 100%;
+    margin-left: 0;
     margin: auto;
-    text-align: center;
+    font-size: 0.9rem;
+
+    @media only screen and (max-width: 1440px) {
+      font-size: 0.85rem;
+    }
   }
 
   li {
+    position: relative;
     list-style: none;
-    margin-bottom: 1rem;
-    transition: transform 200ms ease;
-    transform: translate3d(0, 0, 0);
-    will-change: transform;
-    -webkit-backface-visibility: hidden;
+    width: 100%;
+    margin-top: 0;
+    padding: 0.75rem 0;
+    text-align: center;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+
+    &:hover {
+      background: rgba(255, 255, 255, 0.1);
+    }
+
+    &:last-of-type {
+      border-bottom: 0;
+    }
+
+    @media only screen and (max-width: 1440px) {
+      padding: 0.5rem 0;
+    }
   }
 
   .is-current {
-    text-decoration: underline;
-    transform: scale(1.1);
+    background: rgba(255, 255, 255, 0.1);
+    font-weight: 700;
   }
 
   a {
@@ -41,7 +60,6 @@ const StyledNavigation = styled.nav`
 
   @media only screen and (max-width: 1024px) {
     width: 100vw;
-    height: auto;
     bottom: 0;
     top: auto;
     left: auto;

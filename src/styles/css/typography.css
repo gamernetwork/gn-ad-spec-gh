@@ -9,7 +9,7 @@ body {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: #222;
+  color: #444;
 }
 
 h1,
@@ -20,7 +20,7 @@ h3 {
   line-height: 1;
   letter-spacing: -0.025em;
   max-width: var(--max-copy-width);
-  color: #222;
+  color: #111;
 }
 
 h1 {
@@ -33,6 +33,7 @@ h2 {
 
 h3 {
   font-size: var(--ms1);
+  font-weight: 700;
   margin-top: 2rem;
 }
 
@@ -53,7 +54,7 @@ h3 + p {
 ul,
 ol {
   margin-left: 1rem;
-  margin-top: 1rem;
+  margin-top: 1.5rem;
   max-width: var(--max-copy-width);
 }
 

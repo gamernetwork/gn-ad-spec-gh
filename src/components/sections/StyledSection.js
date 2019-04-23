@@ -21,6 +21,11 @@ const StyledSection = styled.section`
     color: #fff;
     padding: 0.625rem 1.5rem;
     line-height: 1;
+    top: -2px;
+
+    @media only screen and (max-width: 1024px) {
+      left: -1rem;
+    }
   }
 
   .table-wrapper {
@@ -37,7 +42,7 @@ const StyledSection = styled.section`
 
     @media only screen and (max-width: 1280px) {
       margin-left: 0;
-      margin-top: 1.5rem;
+      margin-top: 2rem;
     }
   }
 `;
