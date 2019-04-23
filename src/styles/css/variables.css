@@ -17,7 +17,7 @@
   --ms5: calc(var(--ms-ratio) * var(--ms4));
 
   /* wrappers */
-  --wrapper-width: 65rem;
+  --wrapper-width: 68rem;
   --nav-width: 18vmax;
   --max-copy-width: 100%;
 
@@ -37,7 +37,7 @@
 
 @media only screen and (min-width: 1024px) {
   :root {
-    --max-copy-width: 36rem;
+    --max-copy-width: 40rem;
   }
 }
 

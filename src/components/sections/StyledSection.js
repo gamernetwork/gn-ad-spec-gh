@@ -6,7 +6,7 @@ const StyledSection = styled.section`
   margin-bottom: 5rem;
   padding-top: 5rem;
   border-top: 2px solid #222;
-  padding-left: 1.5rem;
+  padding-left: 1rem;
 
   @media only screen and (max-width: 1024px) {
     padding-left: 0;
@@ -19,7 +19,7 @@ const StyledSection = styled.section`
     margin: 0;
     background: var(--c-blue-1);
     color: #fff;
-    padding: 0.625rem 1.5rem;
+    padding: 0.625rem 1rem;
     line-height: 1;
     top: -2px;
 

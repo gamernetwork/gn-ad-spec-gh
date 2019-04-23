@@ -5,12 +5,12 @@ import StyledNavigation from './StyledNavigation';
 
 class Navigation extends Component {
   state = {
-    windowWidth: window.innerWidth,
-    hideNav: window.innerWidth <= 1024 ? true : false,
+    windowWidth: typeof window !== 'undefined' && window.innerWidth,
+    hideNav:
+      typeof window !== 'undefined' && window.innerWidth <= 1024 ? true : false,
   };
 
   onResize = windowSize => {
-    console.log(windowSize);
     this.setState(
       {
         windowWidth: windowSize,
@@ -26,10 +26,20 @@ class Navigation extends Component {
     );
   };
 
+  toggleNav = () => {
+    const { hideNav, windowWidth } = this.state;
+    if (windowWidth >= 1024) {
+      return;
+    }
+    this.setState({
+      hideNav: !hideNav,
+    });
+  };
+
   render() {
     const { hideNav } = this.state;
     return (
-      <StyledNavigation aria-hidden={hideNav}>
+      <StyledNavigation aria-hidden={hideNav} onClick={this.toggleNav}>
         <WindowSizeListener
           onResize={windowSize => this.onResize(windowSize.windowWidth)}
         />

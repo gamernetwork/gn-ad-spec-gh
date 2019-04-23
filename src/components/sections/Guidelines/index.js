@@ -25,7 +25,7 @@ export default () => (
           <h3>Good Practice:</h3>
           <div
             dangerouslySetInnerHTML={{
-              __html: data.allMarkdownRemark.edges[1].node.html,
+              __html: data.allMarkdownRemark.edges[0].node.html,
             }}
           />
         </div>
@@ -34,7 +34,7 @@ export default () => (
 
           <div
             dangerouslySetInnerHTML={{
-              __html: data.allMarkdownRemark.edges[0].node.html,
+              __html: data.allMarkdownRemark.edges[1].node.html,
             }}
           />
         </div>

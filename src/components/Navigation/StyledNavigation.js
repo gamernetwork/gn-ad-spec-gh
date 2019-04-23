@@ -13,12 +13,15 @@ const StyledNavigation = styled.nav`
 
   ul {
     width: 100%;
+    height: 65vh;
     margin-left: 0;
     margin: auto;
-    font-size: 0.9rem;
+    font-size: 0.95rem;
+    display: flex;
+    flex-direction: column;
 
-    @media only screen and (max-width: 1440px) {
-      font-size: 0.85rem;
+    @media only screen and (max-width: 1024px) {
+      height: calc(100% - 3rem);
     }
   }
 
@@ -27,9 +30,10 @@ const StyledNavigation = styled.nav`
     list-style: none;
     width: 100%;
     margin-top: 0;
-    padding: 0.75rem 0;
     text-align: center;
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    flex-grow: 1;
+    padding: 0;
 
     &:hover {
       background: rgba(255, 255, 255, 0.1);
@@ -39,8 +43,11 @@ const StyledNavigation = styled.nav`
       border-bottom: 0;
     }
 
-    @media only screen and (max-width: 1440px) {
-      padding: 0.5rem 0;
+    a {
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
     }
   }
 
