@@ -11,19 +11,19 @@ class Navigation extends Component {
   };
 
   onResize = windowSize => {
-    this.setState(
-      {
-        windowWidth: windowSize,
-      },
-      () => {
-        const { windowWidth } = this.state;
-        let hideNav;
-        windowWidth <= 1024 ? (hideNav = true) : (hideNav = false);
-        this.setState({
-          hideNav,
-        });
-      }
-    );
+    // this.setState(
+    //   {
+    //     windowWidth: windowSize,
+    //   },
+    //   () => {
+    //     const { windowWidth } = this.state;
+    //     let hideNav;
+    //     windowWidth <= 1024 ? (hideNav = true) : (hideNav = false);
+    //     this.setState({
+    //       hideNav,
+    //     });
+    //   }
+    // );
   };
 
   toggleNav = () => {

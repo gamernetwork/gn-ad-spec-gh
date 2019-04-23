@@ -6,7 +6,7 @@ const StyledNavigation = styled.nav`
   left: 0;
   width: var(--nav-width);
   height: 100vh;
-  transition: transform 300ms ease;
+  transition: transform 200ms ease;
   z-index: 1;
   background: var(--c-blue-1);
   display: flex;
