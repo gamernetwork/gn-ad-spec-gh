@@ -54,7 +54,6 @@ const StyledNavigation = styled.nav`
 
   .is-current {
     background: rgba(255, 255, 255, 0.1);
-    font-weight: 700;
   }
 
   a {

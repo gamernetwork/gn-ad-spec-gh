@@ -3,11 +3,18 @@ import WindowSizeListener from 'react-window-size-listener';
 import Scrollspy from 'react-scrollspy';
 import StyledNavigation from './StyledNavigation';
 
+let initWindowWidth;
+
+try {
+  initWindowWidth = window.innerWidth;
+} catch (e) {
+  console.log(e);
+}
+
 class Navigation extends Component {
   state = {
-    windowWidth: typeof window !== 'undefined' && window.innerWidth,
-    hideNav:
-      typeof window !== 'undefined' && window.innerWidth <= 1024 ? true : false,
+    windowWidth: initWindowWidth,
+    hideNav: null,
   };
 
   onResize = windowSize => {
