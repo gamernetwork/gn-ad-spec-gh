@@ -16,8 +16,8 @@ const StyledNavigation = styled.nav`
     width: 100%;
     height: 65vh;
     margin-left: 0;
-    margin: auto;
     font-size: 0.95rem;
+    margin: auto;
     display: flex;
     flex-direction: column;
 
@@ -45,6 +45,7 @@ const StyledNavigation = styled.nav`
     }
 
     a {
+      width: 100%;
       height: 100%;
       display: flex;
       justify-content: center;
@@ -73,6 +74,7 @@ const StyledNavigation = styled.nav`
     right: 0;
     transform-origin: 100% 100%;
     box-shadow: 0px -2px 12px 4px rgba(0, 0, 0, 0.15);
+    height: 75vh;
 
     &:after {
       position: absolute;
