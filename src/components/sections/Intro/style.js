@@ -4,6 +4,7 @@ import StyledSection from '../StyledSection';
 const StyledIntroSection = styled(StyledSection)`
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
 
   p:first-of-type {
     margin-top: 0;
@@ -20,8 +21,15 @@ const StyledIntroSection = styled(StyledSection)`
   }
 
   .intro__image {
-    flex-grow: 1;
+    width: 30%;
     display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .gatsby-image-wrapper {
+      /* flex-basis: 557px; */
+      margin: none !important;
+    }
 
     @media only screen and (max-width: 1280px) {
       width: 100%;

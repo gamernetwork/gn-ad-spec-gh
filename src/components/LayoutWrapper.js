@@ -5,8 +5,11 @@ import Navigation from './Navigation';
 
 const PageWrapper = styled.main`
   width: 100%;
-  max-width: 1600px;
   background: #fff;
+`;
+
+const PageInner = styled.div`
+  max-width: 1600px;
 `;
 
 const ContentWrapper = styled.article`
@@ -26,7 +29,9 @@ const LayoutWrapper = ({ children }) => (
     <Head />
     <Navigation />
     <PageWrapper>
-      <ContentWrapper>{children}</ContentWrapper>
+      <PageInner>
+        <ContentWrapper>{children}</ContentWrapper>
+      </PageInner>
     </PageWrapper>
   </Fragment>
 );

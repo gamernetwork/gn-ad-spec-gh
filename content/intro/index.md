@@ -1,5 +1,5 @@
 ---
-imageright: './right.png'
+imageright: './intro_image.png'
 ---
 
 Our advertising policy matches our industry reputation, the following spec is to guide you through our process, ensure quality and timely delivery.

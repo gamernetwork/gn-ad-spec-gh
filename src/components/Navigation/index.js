@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import WindowSizeListener from 'react-window-size-listener';
 import Scrollspy from 'react-scrollspy';
 import StyledNavigation from './StyledNavigation';
+import Logo from '../../assets/side_Nav_Logo.png';
 
 let initWindowWidth;
 
@@ -47,6 +48,7 @@ class Navigation extends Component {
     const { hideNav } = this.state;
     return (
       <StyledNavigation aria-hidden={hideNav} onClick={this.toggleNav}>
+        <img className="nav-logo" src={Logo} />
         <WindowSizeListener
           onResize={windowSize => this.onResize(windowSize.windowWidth)}
         />
