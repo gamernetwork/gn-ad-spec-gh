@@ -1,4 +1,5 @@
 /* eslint-disable jsx-a11y/anchor-has-content */
+/* eslint-disable jsx-a11y/anchor-is-valid */
 
 import React, { Component } from 'react';
 import WindowSizeListener from 'react-window-size-listener';
@@ -50,7 +51,7 @@ class Navigation extends Component {
     const { hideNav } = this.state;
     return (
       <StyledNavigation aria-hidden={hideNav} onClick={this.toggleNav}>
-        <img className="nav-logo" src={Logo} />
+        <img className="nav-logo" src={Logo} alt="gamer network logo" />
         <WindowSizeListener
           onResize={windowSize => this.onResize(windowSize.windowWidth)}
         />

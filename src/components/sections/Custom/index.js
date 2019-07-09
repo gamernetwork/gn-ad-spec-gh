@@ -1,3 +1,6 @@
+/* eslint-disable jsx-a11y/anchor-has-content */
+/* eslint-disable jsx-a11y/anchor-is-valid */
+
 import React from 'react';
 import { StaticQuery, graphql } from 'gatsby';
 import StyledCustomSection from './style';
@@ -37,11 +40,11 @@ export default () => (
               dangerouslySetInnerHTML={{ __html: customUnit.node.html }}
             />
             <button className="live-btn">
-              <img src={viewIcon} />
+              <img src={viewIcon} alt="view example" />
               View Live Example
             </button>
             <button className="download-btn">
-              <img src={downloadIcon} />
+              <img src={downloadIcon} alt="download" />
               Download PSD Template
             </button>
             <hr />
