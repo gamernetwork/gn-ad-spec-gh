@@ -110,6 +110,11 @@ class Navigation extends Component {
             <a href="#compliance" />
             <p>Compliance</p>
           </li>
+          <li className="contact">
+            <p>
+              <strong>Contact:</strong> trafficking@gamer-network.net
+            </p>
+          </li>
         </Scrollspy>
       </StyledNavigation>
     );

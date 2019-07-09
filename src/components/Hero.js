@@ -7,11 +7,11 @@ const Hero = styled.div`
   top: 0;
   left: calc(var(--nav-width));
   width: 100%;
-
-  height: 16rem;
-  background: #555;
+  height: 14rem;
+  background: #474073;
   background-image: url(${headerImg});
-  background-size: cover;
+  background-size: var(--wrapper-width);
+  background-repeat: no-repeat;
   background-position: 0 0;
   z-index: -1;
 

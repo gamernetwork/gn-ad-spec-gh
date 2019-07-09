@@ -6,7 +6,6 @@ const StyledNavigation = styled.nav`
   left: 0;
   width: var(--nav-width);
   height: 100vh;
-  padding-bottom: 3rem;
   transition: transform 200ms ease;
   z-index: 1;
   background: var(--c-blue-1);
@@ -17,8 +16,8 @@ const StyledNavigation = styled.nav`
   -moz-osx-font-smoothing: grayscale;
 
   .nav-logo {
-    max-width: 160px;
-    margin: 3.5rem auto 2rem auto;
+    max-width: 180px;
+    margin: 2.5rem auto 1rem auto;
 
     @media only screen and (max-width: 1024px) {
       display: none;
@@ -53,6 +52,15 @@ const StyledNavigation = styled.nav`
 
     &:hover {
       font-weight: 700;
+    }
+  }
+
+  .contact {
+    &:hover {
+      font-weight: 400;
+    }
+    p {
+      font-size: 14px;
     }
   }
 
