@@ -22,6 +22,8 @@ const StyledSection = styled.section`
     padding: 0.625rem 1rem;
     line-height: 1;
     top: -2px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 
     @media only screen and (max-width: 1024px) {
       left: -1rem;

@@ -12,9 +12,11 @@ const StyledNavigation = styled.nav`
   display: flex;
   flex-direction: column;
   transform: translateY(calc(100% - 3rem));
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 
   .nav-logo {
-    max-width: 190px;
+    max-width: 150px;
     margin: 3.5rem auto 0 auto;
 
     @media only screen and (max-width: 1024px) {

@@ -20,6 +20,8 @@ button {
 }
 
 button:hover {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
   background: var(--c-blue-1);
   color: #fff;
 }

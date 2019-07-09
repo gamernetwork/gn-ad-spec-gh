@@ -5,15 +5,15 @@ import StyledGuidelinesSection from './style';
 export default () => (
   <StaticQuery
     query={graphql`
-      {
-        allMarkdownRemark(
-          filter: { fileAbsolutePath: { regex: "/guidelines/" } }
-        ) {
-          edges {
-            node {
-              id
-              html
-            }
+      query guidelines {
+        good: file(relativePath: { eq: "guidelines/good.md" }) {
+          childMarkdownRemark {
+            html
+          }
+        }
+        bad: file(relativePath: { eq: "guidelines/bad.md" }) {
+          childMarkdownRemark {
+            html
           }
         }
       }
@@ -25,7 +25,7 @@ export default () => (
           <h3>Good Practice:</h3>
           <div
             dangerouslySetInnerHTML={{
-              __html: data.allMarkdownRemark.edges[0].node.html,
+              __html: data.good.childMarkdownRemark.html,
             }}
           />
         </div>
@@ -34,7 +34,7 @@ export default () => (
 
           <div
             dangerouslySetInnerHTML={{
-              __html: data.allMarkdownRemark.edges[1].node.html,
+              __html: data.bad.childMarkdownRemark.html,
             }}
           />
         </div>

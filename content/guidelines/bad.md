@@ -1,3 +1,7 @@
+---
+catergory: 'bad'
+---
+
 - Pop-up ads
 - Ads containing auto expansion
 - Ads built using Flash

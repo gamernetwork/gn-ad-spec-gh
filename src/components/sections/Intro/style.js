@@ -27,7 +27,6 @@ const StyledIntroSection = styled(StyledSection)`
     align-items: center;
 
     .gatsby-image-wrapper {
-      /* flex-basis: 557px; */
       margin: none !important;
     }
 
