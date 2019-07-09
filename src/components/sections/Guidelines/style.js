@@ -34,6 +34,7 @@ const StyledGuidelinesSection = styled(StyledSection)`
 
     @media only screen and (max-width: 800px) {
       padding: 0;
+      margin-top: 2rem;
     }
   }
 `;

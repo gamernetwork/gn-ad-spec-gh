@@ -6,7 +6,7 @@ const Hero = styled.div`
   top: 0;
   left: calc(var(--nav-width));
   width: 100%;
-  height: 12rem;
+  height: 16rem;
   background: #555;
   background-image: url(${headerImg});
   background-size: cover;
@@ -15,7 +15,6 @@ const Hero = styled.div`
 
   @media only screen and (max-width: 1024px) {
     left: 0;
-    width: 100vw;
   }
 `;
 

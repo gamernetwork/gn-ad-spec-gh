@@ -8,6 +8,7 @@ export default () => (
       {
         allMarkdownRemark(
           filter: { fileAbsolutePath: { regex: "/takeovers/types/" } }
+          sort: { fields: [frontmatter___order], order: ASC }
         ) {
           edges {
             node {

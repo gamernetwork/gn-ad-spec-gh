@@ -1,5 +1,5 @@
 ---
-imageright: './right.png'
+imageright: './leadtime_box.png'
 ---
 
 ### Direct:

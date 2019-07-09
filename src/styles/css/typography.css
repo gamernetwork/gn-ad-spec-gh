@@ -7,8 +7,6 @@ body {
   line-height: 1.5;
   font-family: proxima-nova, sans-serif;
   text-rendering: optimizeLegibility;
-  /* -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale; */
   color: #444;
 }
 
@@ -20,7 +18,7 @@ h3 {
   line-height: 1;
   letter-spacing: -0.025em;
   max-width: var(--max-copy-width);
-  color: #111;
+  color: #222;
 }
 
 h1 {

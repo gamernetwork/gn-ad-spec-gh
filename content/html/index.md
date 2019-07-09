@@ -23,8 +23,6 @@
 
 ### Video
 
-**Please note: this guidance does not apply to in-stream video; pre-roll, mid-roll or post-roll**
-
 - Host initiated video auto-play
   - Max duration: 15 seconds
   - Max polite load file size: 1.5mb
@@ -39,6 +37,8 @@
 - Ads that appear or expand as user scrolls must not auto collapse after the video play. This causes the content to be displaced and fall out of user’s view
 - Pre-caching or preloading is a popular practice to resolve latency issues in displaying ads. It is recommended that lighter weight non-video assets like images within LEAN file weight limits be pre-loaded and video assets downloaded only when ad is displayed to the user
 - Video only autoplays if 50% or more of it is in view (can be 33% inview on creatives where the height is greater than width, e.g. 300x600 halfpages). When it’s not in view the video is hidden.
+
+**_Please note: this guidance does not apply to in-stream video; pre-roll, mid-roll or post-roll_**
 
 ### Audio
 

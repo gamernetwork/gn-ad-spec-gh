@@ -15,12 +15,13 @@ const PageInner = styled.div`
 const ContentWrapper = styled.article`
   width: 100%;
   max-width: var(--wrapper-width);
-  margin: 12rem auto;
+  margin: 16rem auto;
+  margin-bottom: 0;
   min-height: 100vh;
   padding: 3rem 3rem;
 
   @media only screen and (max-width: 1024px) {
-    padding: 3rem 1rem;
+    padding: 3rem 1rem 0rem 1rem;
   }
 `;
 

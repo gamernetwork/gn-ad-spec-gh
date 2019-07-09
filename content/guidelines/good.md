@@ -1,7 +1,3 @@
----
-catergory: 'good'
----
-
 - Ads adhere to LEAN guidelines
 - Third-party tags must be supplied by Google Ad Manager’s recognised creative vendors
 - Ads are within our file size and dimension guidelines

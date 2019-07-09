@@ -49,7 +49,7 @@ const StyledNavigation = styled.nav`
     padding: 0;
 
     &:hover {
-      background: rgba(255, 255, 255, 0.1);
+      font-weight: 700;
     }
 
     &:last-of-type {
