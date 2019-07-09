@@ -42,10 +42,12 @@ const StyledTakeoverType = styled.div`
   .site-info {
     margin-bottom: 1.5rem;
     color: #777;
+    text-transform: lowercase;
 
     span {
       font-weight: 700;
       color: #333;
+      text-transform: none;
     }
   }
 `;

@@ -57,14 +57,6 @@ const StyledCustomSection = styled(StyledSection)`
   .table-wrapper {
     margin-top: 2rem;
   }
-
-  .custom-unit-wrapper {
-    max-width: var(--max-copy-width);
-
-    .gatsby-image-wrapper {
-      margin: 1.5rem 0;
-    }
-  }
 `;
 
 export default StyledCustomSection;

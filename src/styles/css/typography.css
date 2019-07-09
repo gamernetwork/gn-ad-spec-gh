@@ -43,6 +43,10 @@ p {
   max-width: var(--max-copy-width);
 }
 
+a {
+  color: var(--c-blue);
+}
+
 h2 + p,
 h3 + p {
   margin: 0;
