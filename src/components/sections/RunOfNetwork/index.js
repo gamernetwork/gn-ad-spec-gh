@@ -19,7 +19,8 @@ export default () => (
       }
     `}
     render={data => (
-      <StyledRONSection id="run-of-network">
+      <StyledRONSection>
+        <a className="anchor-point" id="run-of-network" />
         <h2>Run Of Network</h2>
         <p>
           The following ads sizes run across all Gamer Network sites where those

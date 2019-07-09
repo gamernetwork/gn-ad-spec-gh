@@ -29,7 +29,8 @@ export default () => (
       }
     `}
     render={data => (
-      <StyledIntroSection id="lead-times">
+      <StyledIntroSection>
+        <a className="anchor-point" id="lead-times" />
         <h2>Lead Times</h2>
         <div
           className="lead-times__text"

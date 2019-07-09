@@ -19,7 +19,8 @@ export default () => (
       }
     `}
     render={data => (
-      <StyledGuidelinesSection id="guidelines">
+      <StyledGuidelinesSection>
+        <a className="anchor-point" id="guidelines" />
         <h2>General Guidelines</h2>
         <div className="good">
           <h3>Good Practice:</h3>

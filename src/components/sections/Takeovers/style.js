@@ -6,7 +6,7 @@ const StyledTakeoverSection = styled(StyledSection)`
   flex-wrap: wrap;
 
   .text-wrapper {
-    width: 60%;
+    width: 75%;
     padding-right: 3rem;
     p:first-of-type {
       margin-top: 0;
@@ -15,16 +15,6 @@ const StyledTakeoverSection = styled(StyledSection)`
     @media only screen and (max-width: 1280px) {
       width: 100%;
       padding-right: 0;
-    }
-  }
-
-  .img-wrapper {
-    width: 40%;
-    display: flex;
-    align-self: flex-start;
-
-    @media only screen and (max-width: 1280px) {
-      width: 100%;
     }
   }
 

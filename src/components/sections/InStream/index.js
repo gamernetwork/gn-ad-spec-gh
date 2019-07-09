@@ -14,7 +14,8 @@ export default () => (
       }
     `}
     render={data => (
-      <StyledInStreamSection id="in-stream">
+      <StyledInStreamSection>
+        <a className="anchor-point" id="in-stream" />
         <h2>In-Stream Video</h2>
         <div
           dangerouslySetInnerHTML={{

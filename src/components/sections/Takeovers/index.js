@@ -31,7 +31,8 @@ export default () => (
       }
     `}
     render={data => (
-      <StyledTakeoverSection id="takeovers">
+      <StyledTakeoverSection>
+        <a className="anchor-point" id="takeovers" />
         <h2>Takeovers</h2>
         <div
           className="text-wrapper"
@@ -39,17 +40,9 @@ export default () => (
             __html: data.file.childMarkdownRemark.html,
           }}
         />
-        <div className="img-wrapper">
-          <Img
-            fluid={
-              data.file.childMarkdownRemark.frontmatter.imageright
-                .childImageSharp.fluid
-            }
-          />
-        </div>
         <Types />
         <p className="html5-pointer">
-          Please refer to our <a href="#">HTML5 Guidelines</a> if supplying
+          Please refer to our <a href="#html5">HTML5 Guidelines</a> if supplying
           HTML5 creatives
         </p>
       </StyledTakeoverSection>

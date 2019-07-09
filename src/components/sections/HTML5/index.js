@@ -14,7 +14,8 @@ export default () => (
       }
     `}
     render={data => (
-      <StyledHTML5Section id="html5">
+      <StyledHTML5Section>
+        <a className="anchor-point" id="html5" />
         <h2>HTML5 Guidelines</h2>
         <div
           dangerouslySetInnerHTML={{

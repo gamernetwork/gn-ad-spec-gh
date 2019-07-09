@@ -12,6 +12,15 @@ const StyledSection = styled.section`
     padding-left: 0;
   }
 
+  .anchor-point {
+    position: absolute;
+    top: -2rem;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+  }
+
   h2 {
     position: absolute;
     top: 0;
