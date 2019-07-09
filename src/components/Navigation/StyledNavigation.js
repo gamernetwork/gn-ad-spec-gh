@@ -19,6 +19,10 @@ const StyledNavigation = styled.nav`
     max-width: 180px;
     margin: 2.5rem auto 1rem auto;
 
+    @media only screen and (max-width: 1440px) {
+      max-width: 140px;
+    }
+
     @media only screen and (max-width: 1024px) {
       display: none;
     }
