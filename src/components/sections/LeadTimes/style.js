@@ -13,7 +13,7 @@ const StyledIntroSection = styled(StyledSection)`
     width: 60%;
     padding-right: 3rem;
 
-    @media only screen and (max-width: 1280px) {
+    @media only screen and (max-width: 1024px) {
       width: 100%;
       padding-right: 0;
     }
@@ -23,7 +23,7 @@ const StyledIntroSection = styled(StyledSection)`
     flex-grow: 1;
     display: flex;
 
-    @media only screen and (max-width: 1280px) {
+    @media only screen and (max-width: 1024px) {
       width: 100%;
     }
   }

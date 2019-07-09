@@ -1,7 +1,8 @@
 import React from 'react';
 import { StaticQuery, graphql } from 'gatsby';
-import Img from 'gatsby-image';
 import StyledCustomSection from './style';
+import downloadIcon from '../../../assets/download_icon.png';
+import viewIcon from '../../../assets/view_icon.png';
 
 export default () => (
   <StaticQuery
@@ -35,8 +36,14 @@ export default () => (
               className="table-wrapper"
               dangerouslySetInnerHTML={{ __html: customUnit.node.html }}
             />
-            <button>View Live Example</button>
-            <button>Download PSD Template</button>
+            <button className="live-btn">
+              <img src={viewIcon} />
+              View Live Example
+            </button>
+            <button className="download-btn">
+              <img src={downloadIcon} />
+              Download PSD Template
+            </button>
             <hr />
           </div>
         ))}

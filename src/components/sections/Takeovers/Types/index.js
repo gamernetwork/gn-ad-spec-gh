@@ -1,6 +1,7 @@
 import React from 'react';
 import { StaticQuery, graphql } from 'gatsby';
 import StyledTakeoverType from './style';
+import downloadIcon from '../../../../assets/download_icon.png';
 
 export default () => (
   <StaticQuery
@@ -43,7 +44,10 @@ export default () => (
             className="table-wrapper"
             dangerouslySetInnerHTML={{ __html: takeoverType.html }}
           />
-          <button>Download PSD Template</button>
+          <button>
+            <img src={downloadIcon} alt="download" />
+            Download PSD Template
+          </button>
           <hr />
         </StyledTakeoverType>
       ))

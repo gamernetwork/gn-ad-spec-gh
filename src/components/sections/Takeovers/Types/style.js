@@ -16,6 +16,29 @@ const StyledTakeoverType = styled.div`
     opacity: 0.25;
   }
 
+  button {
+    position: relative;
+    border-color: var(--c-purp);
+    color: var(--c-purp);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    img {
+      width: 0.75rem;
+      margin-right: 0.5rem;
+    }
+
+    &:hover {
+      background: var(--c-purp);
+      color: #fff;
+
+      img {
+        filter: grayscale(1) brightness(100);
+      }
+    }
+  }
+
   .site-info {
     margin-bottom: 1.5rem;
     color: #777;

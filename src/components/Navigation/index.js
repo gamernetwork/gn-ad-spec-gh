@@ -1,3 +1,5 @@
+/* eslint-disable jsx-a11y/anchor-has-content */
+
 import React, { Component } from 'react';
 import WindowSizeListener from 'react-window-size-listener';
 import Scrollspy from 'react-scrollspy';
@@ -68,34 +70,44 @@ class Navigation extends Component {
           currentClassName="is-current"
         >
           <li>
-            <a href="#introduction">Introduction</a>
+            <a href="#introduction" />
+            <p>Introduction</p>
           </li>
           <li>
-            <a href="#lead-times">Lead Times</a>
+            <a href="#lead-times" />
+            <p>Lead Times</p>
           </li>
           <li>
-            <a href="#guidelines">Guidelines</a>
+            <a href="#guidelines" />
+            <p>Guidelines</p>
           </li>
           <li>
-            <a href="#takeovers">Takeovers</a>
+            <a href="#takeovers" />
+            <p>Takeovers</p>
           </li>
           <li>
-            <a href="#run-of-network">Run Of Network</a>
+            <a href="#run-of-network" />
+            <p>Run Of Network</p>
           </li>
           <li>
-            <a href="#html5">HTML5</a>
+            <a href="#html5" />
+            <p>HTML5</p>
           </li>
           <li>
-            <a href="#custom-units">Custom Units</a>
+            <a href="#custom-units" />
+            <p>Custom Units</p>
           </li>
           <li>
-            <a href="#programmatic">Programmatic</a>
+            <a href="#programmatic" />
+            <p>Programmatic</p>
           </li>
           <li>
-            <a href="#in-stream">In-Stream</a>
+            <a href="#in-stream" />
+            <p>In-Stream</p>
           </li>
           <li>
-            <a href="#compliance">Compliance</a>
+            <a href="#compliance" />
+            <p>Compliance</p>
           </li>
         </Scrollspy>
       </StyledNavigation>

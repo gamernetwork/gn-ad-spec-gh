@@ -7,6 +7,7 @@ const Hero = styled.div`
   top: 0;
   left: calc(var(--nav-width));
   width: 100%;
+
   height: 16rem;
   background: #555;
   background-image: url(${headerImg});
@@ -20,11 +21,21 @@ const Hero = styled.div`
     left: 0;
     content: '';
     width: calc(100% - var(--nav-width));
+    max-width: var(--wrapper-width);
     height: 100%;
     background-image: url(${headerLogo});
     background-size: 250px;
     background-position: center center;
     background-repeat: no-repeat;
+
+    @media only screen and (max-width: 1024px) {
+      width: 100%;
+    }
+
+    @media only screen and (max-width: 600px) {
+      width: 100%;
+      background-size: 50%;
+    }
   }
 
   @media only screen and (max-width: 1024px) {

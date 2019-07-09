@@ -6,6 +6,7 @@ const StyledNavigation = styled.nav`
   left: 0;
   width: var(--nav-width);
   height: 100vh;
+  padding-bottom: 3rem;
   transition: transform 200ms ease;
   z-index: 1;
   background: var(--c-blue-1);
@@ -16,8 +17,8 @@ const StyledNavigation = styled.nav`
   -moz-osx-font-smoothing: grayscale;
 
   .nav-logo {
-    max-width: 150px;
-    margin: 3.5rem auto 0 auto;
+    max-width: 160px;
+    margin: 3.5rem auto 2rem auto;
 
     @media only screen and (max-width: 1024px) {
       display: none;
@@ -26,10 +27,9 @@ const StyledNavigation = styled.nav`
 
   ul {
     width: 100%;
-    height: 65vh;
+    flex-grow: 1;
     margin-left: 0;
     font-size: 0.95rem;
-    margin: auto;
     display: flex;
     flex-direction: column;
 
@@ -47,21 +47,12 @@ const StyledNavigation = styled.nav`
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
     flex-grow: 1;
     padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
     &:hover {
       font-weight: 700;
-    }
-
-    &:last-of-type {
-      border-bottom: 0;
-    }
-
-    a {
-      width: 100%;
-      height: 100%;
-      display: flex;
-      justify-content: center;
-      align-items: center;
     }
   }
 
@@ -69,7 +60,17 @@ const StyledNavigation = styled.nav`
     background: rgba(255, 255, 255, 0.1);
   }
 
+  p {
+    margin: 0;
+    color: #fff;
+  }
+
   a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
     color: #fff;
     text-decoration: none;
   }

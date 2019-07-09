@@ -17,13 +17,15 @@
   --ms5: calc(var(--ms-ratio) * var(--ms4));
 
   /* wrappers */
-  --wrapper-width: 68rem;
+  --wrapper-width: 72rem;
   --nav-width: 18vmax;
   --max-copy-width: 100%;
 
   /* colors */
 
   --c-blue-1: #313842;
+  --c-purp: #470b80;
+  --c-blue: #37aeb5;
 }
 
 @media only screen and (min-width: 320px) {
