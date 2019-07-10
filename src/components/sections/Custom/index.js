@@ -5,7 +5,7 @@ import React from 'react';
 import { StaticQuery, graphql } from 'gatsby';
 import StyledCustomSection from './style';
 import downloadIcon from '../../../assets/download_icon.png';
-import viewIcon from '../../../assets/view_icon.png';
+import viewIcon from '../../../assets/View_icon.png';
 
 export default () => (
   <StaticQuery
