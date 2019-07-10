@@ -11,7 +11,7 @@ const StyledNavigation = styled.nav`
   background: var(--c-blue-1);
   display: flex;
   flex-direction: column;
-  transform: translateY(calc(100% - 3rem));
+
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
@@ -101,6 +101,7 @@ const StyledNavigation = styled.nav`
     transform-origin: 100% 100%;
     box-shadow: 0px -2px 12px 4px rgba(0, 0, 0, 0.15);
     height: 75vh;
+    transform: translateY(calc(100% - 3rem));
 
     &:after {
       position: absolute;
