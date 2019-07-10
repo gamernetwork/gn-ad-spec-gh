@@ -15,7 +15,6 @@ const StyledCustomSection = styled(StyledSection)`
     display: inline-flex;
     justify-content: space-between;
     align-items: center;
-    margin-left: 1rem;
 
     img {
       width: 0.75rem;
@@ -34,15 +33,21 @@ const StyledCustomSection = styled(StyledSection)`
   .download-btn {
     border-color: var(--c-purp);
     color: var(--c-purp);
+    margin-left: 1rem;
 
     &:hover {
       background: var(--c-purp);
+    }
+
+    @media only screen and (max-width: 1024px) {
+      margin-left: 0;
     }
   }
 
   .live-btn {
     border-color: var(--c-blue);
     color: var(--c-blue);
+    margin-left: 1rem;
 
     img {
       filter: brightness(0.75);
@@ -50,6 +55,10 @@ const StyledCustomSection = styled(StyledSection)`
 
     &:hover {
       background: var(--c-blue);
+    }
+
+    @media only screen and (max-width: 1024px) {
+      margin-left: 0;
     }
   }
 

@@ -67,6 +67,7 @@ class Navigation extends Component {
             'programmatic',
             'in-stream',
             'compliance',
+            'contact',
           ]}
           currentClassName="is-current"
         >
@@ -111,7 +112,7 @@ class Navigation extends Component {
             <p>Compliance</p>
           </li>
           <li>
-            <a href="#compliance" aria-label="Jump to contact" />
+            <a href="#contact" aria-label="Jump to contact" />
             <p>Contact</p>
           </li>
         </Scrollspy>

@@ -11,6 +11,7 @@ import Custom from '../components/sections/Custom';
 import Programatic from '../components/sections/Programatic';
 import Instream from '../components/sections/InStream';
 import Compliance from '../components/sections/Compliance';
+import Contact from '../components/sections/Contact';
 
 const IndexPage = () => {
   return (
@@ -27,6 +28,7 @@ const IndexPage = () => {
         <Programatic />
         <Instream />
         <Compliance />
+        <Contact />
       </LayoutWrapper>
     </Fragment>
   );
