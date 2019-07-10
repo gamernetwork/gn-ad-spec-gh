@@ -26,7 +26,7 @@ export default () => (
         <a className="anchor-point" id="guidelines" />
         <h2>General Guidelines</h2>
         <div className="good">
-          <h3>Good Practice:</h3>
+          <h3 className="good-heading">Good Practice:</h3>
           <div
             dangerouslySetInnerHTML={{
               __html: data.good.childMarkdownRemark.html,
@@ -34,8 +34,7 @@ export default () => (
           />
         </div>
         <div className="bad">
-          <h3>Bad Practice:</h3>
-
+          <h3 className="bad-heading">Bad Practice:</h3>
           <div
             dangerouslySetInnerHTML={{
               __html: data.bad.childMarkdownRemark.html,
