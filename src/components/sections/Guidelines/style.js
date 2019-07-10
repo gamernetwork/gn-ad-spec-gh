@@ -24,6 +24,7 @@ const StyledGuidelinesSection = styled(StyledSection)`
   .good {
     border-right: 2px #eee dashed;
     padding-right: 3.5rem;
+    margin-top: 3px;
 
     @media only screen and (max-width: 800px) {
       padding: 0;
