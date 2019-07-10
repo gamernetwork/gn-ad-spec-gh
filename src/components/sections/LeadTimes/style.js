@@ -24,7 +24,7 @@ const StyledIntroSection = styled(StyledSection)`
     display: flex;
 
     @media only screen and (max-width: 1024px) {
-      width: 100%;
+      display: none;
     }
   }
 `;

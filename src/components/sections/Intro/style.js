@@ -27,7 +27,9 @@ const StyledIntroSection = styled(StyledSection)`
     align-items: center;
 
     .gatsby-image-wrapper {
-      margin: none !important;
+      @media only screen and (max-width: 1024px) {
+        display: none;
+      }
     }
 
     @media only screen and (max-width: 1024px) {
