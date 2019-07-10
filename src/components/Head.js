@@ -7,6 +7,7 @@ const SEO = () => {
   return (
     <Helmet>
       <title>{title}</title>
+      <html lang="en"></html>
       <meta name="description" content={description} />
       <link rel="stylesheet" href="https://use.typekit.net/emn6jca.css" />
     </Helmet>

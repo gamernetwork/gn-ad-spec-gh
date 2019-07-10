@@ -71,46 +71,46 @@ class Navigation extends Component {
           currentClassName="is-current"
         >
           <li>
-            <a href="#introduction" />
+            <a href="#introduction" aria-label="Jump to introduction" />
             <p>Introduction</p>
           </li>
           <li>
-            <a href="#lead-times" />
+            <a href="#lead-times" aria-label="Jump to lead times" />
             <p>Lead Times</p>
           </li>
           <li>
-            <a href="#guidelines" />
+            <a href="#guidelines" aria-label="Jump to guidelines" />
             <p>Guidelines</p>
           </li>
           <li>
-            <a href="#takeovers" />
+            <a href="#takeovers" aria-label="Jump to takeovers" />
             <p>Takeovers</p>
           </li>
           <li>
-            <a href="#run-of-network" />
+            <a href="#run-of-network" aria-label="Jump to run of network" />
             <p>Run Of Network</p>
           </li>
           <li>
-            <a href="#html5" />
+            <a href="#html5" aria-label="Jump to html5" />
             <p>HTML5</p>
           </li>
           <li>
-            <a href="#custom-units" />
+            <a href="#custom-units" aria-label="Jump to custom units" />
             <p>Custom Units</p>
           </li>
           <li>
-            <a href="#programmatic" />
+            <a href="#programmatic" aria-label="Jump to programmatic" />
             <p>Programmatic</p>
           </li>
           <li>
-            <a href="#in-stream" />
+            <a href="#in-stream" aria-label="Jump to in-stream" />
             <p>In-Stream</p>
           </li>
           <li>
-            <a href="#compliance" />
+            <a href="#compliance" aria-label="Jump to compliance" />
             <p>Compliance</p>
           </li>
-          <li className="contact">
+          <li className="contact" aria-label="Jump to contact">
             <p>
               <strong>Contact:</strong> trafficking@gamer-network.net
             </p>

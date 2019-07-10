@@ -44,6 +44,10 @@ const StyledCustomSection = styled(StyledSection)`
     border-color: var(--c-blue);
     color: var(--c-blue);
 
+    img {
+      filter: brightness(0.75);
+    }
+
     &:hover {
       background: var(--c-blue);
     }

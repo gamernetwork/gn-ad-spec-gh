@@ -41,7 +41,7 @@ const StyledTakeoverType = styled.div`
 
   .site-info {
     margin-bottom: 1.5rem;
-    color: #777;
+    color: #515151;
     text-transform: lowercase;
 
     span {
