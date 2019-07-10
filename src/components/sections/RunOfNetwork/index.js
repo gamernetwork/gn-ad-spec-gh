@@ -53,8 +53,8 @@ export default () => (
           </strong>
         </p>
         <p>
-          Please refer to our <a href="#html5-guidelines">HTML5 Guidelines</a>{' '}
-          if supplying HTML5 creatives
+          Please refer to our <a href="#html5">HTML5 Guidelines</a> if supplying
+          HTML5 creatives
         </p>
       </StyledRONSection>
     )}

@@ -110,10 +110,9 @@ class Navigation extends Component {
             <a href="#compliance" aria-label="Jump to compliance" />
             <p>Compliance</p>
           </li>
-          <li className="contact" aria-label="Jump to contact">
-            <p>
-              <strong>Contact:</strong> trafficking@gamer-network.net
-            </p>
+          <li>
+            <a href="#compliance" aria-label="Jump to contact" />
+            <p>Contact</p>
           </li>
         </Scrollspy>
       </StyledNavigation>

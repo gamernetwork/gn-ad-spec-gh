@@ -1,45 +1,88 @@
+import React from 'react';
 import styled from 'styled-components';
-import headerImg from '../assets/Ad_Spec_Header.jpg';
-import headerLogo from '../assets/Main_Header_Logo.png';
+import BackgroundImage from 'gatsby-background-image';
+import Img from 'gatsby-image';
+import { StaticQuery } from 'gatsby';
 
-const Hero = styled.div`
-  position: fixed;
+const BackgroundSection = ({ className }) => (
+  <StaticQuery
+    query={graphql`
+      {
+        header: file(relativePath: { eq: "Ad_Spec_Header.jpg" }) {
+          childImageSharp {
+            fluid(quality: 90, maxWidth: 2160) {
+              sizes
+              srcSet
+              aspectRatio
+              base64
+              src
+              srcSetWebp
+            }
+          }
+        }
+        logo: file(relativePath: { eq: "Main_Header_Logo.png" }) {
+          childImageSharp {
+            fluid(quality: 90, maxWidth: 250) {
+              sizes
+              srcSet
+              aspectRatio
+              base64
+              src
+              srcSetWebp
+            }
+          }
+        }
+      }
+    `}
+    render={data => {
+      // Set ImageData.
+      const imageData = data.header.childImageSharp.fluid;
+      return (
+        <BackgroundImage
+          Tag="section"
+          className={className}
+          fluid={imageData}
+          backgroundColor={`#474073`}
+        >
+          <div className="hero__inner">
+            <Img className="logo" fluid={data.logo.childImageSharp.fluid} />
+          </div>
+        </BackgroundImage>
+      );
+    }}
+  />
+);
+
+const Hero = styled(BackgroundSection)`
+  position: fixed !important;
   top: 0;
-  left: calc(var(--nav-width));
+  left: var(--nav-width);
   width: 100%;
   height: 14rem;
-  background: #474073;
-  background-image: url(${headerImg});
-  background-size: var(--wrapper-width);
-  background-repeat: no-repeat;
   background-position: 0 0;
+  background-repeat: no-repeat;
   z-index: -1;
+  background-size: auto;
 
-  &:after {
-    position: absolute;
-    top: 0;
+  @media only screen and (max-width: 1024px) {
     left: 0;
-    content: '';
-    width: calc(100% - var(--nav-width));
+  }
+
+  .hero__inner {
     max-width: var(--wrapper-width);
+    width: calc(100% - var(--nav-width));
     height: 100%;
-    background-image: url(${headerLogo});
-    background-size: 250px;
-    background-position: center center;
-    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
     @media only screen and (max-width: 1024px) {
       width: 100%;
     }
 
-    @media only screen and (max-width: 600px) {
-      width: 100%;
-      background-size: 50%;
+    .logo {
+      width: 250px;
     }
-  }
-
-  @media only screen and (max-width: 1024px) {
-    left: 0;
   }
 `;
 

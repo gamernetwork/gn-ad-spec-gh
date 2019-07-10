@@ -59,15 +59,6 @@ const StyledNavigation = styled.nav`
     }
   }
 
-  .contact {
-    &:hover {
-      font-weight: 400;
-    }
-    p {
-      font-size: 14px;
-    }
-  }
-
   .is-current {
     background: rgba(255, 255, 255, 0.1);
   }
