@@ -8,5 +8,5 @@
 - GDPR compliant supply
 - High quality assets
 - As much lead time as possible prior to activation
-- Feedback and amends to be supplied in a clear and concise format
+- Feedback and amends supplied in a clear and concise format
 - No autoplaying sound or expansion, unless initiated by user

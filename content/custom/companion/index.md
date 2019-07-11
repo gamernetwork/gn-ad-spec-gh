@@ -13,8 +13,8 @@ order: 2
     <th>File type</th>
   </tr>
   <tr>
-    <td>Bespoke</td> 
-    <td>n/a</td>
+    <td>720x1624</td> 
+    <td>400kb</td>
     <td>n/a</td>
     <td>JPG</td>
   </tr>

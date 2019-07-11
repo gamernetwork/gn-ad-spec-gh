@@ -14,6 +14,14 @@ export default () => (
       If you have any futher questions, please feel free to contact us at the
       following email addresses:
     </p>
+    <h3>Sales</h3>
+    <span>sales@gamer-network.net</span>
+    <CopyToClipboard text="sales@gamer-network.net">
+      <button className="email-address">
+        <img src={clipboardIcon} alt="clipboard"></img>
+        Copy to clipboard
+      </button>
+    </CopyToClipboard>
     <h3>Creative</h3>
     <span>contact@gamercreative.com</span>
     <CopyToClipboard text="contact@gamercreative.com">
@@ -23,8 +31,8 @@ export default () => (
       </button>
     </CopyToClipboard>
     <h3>Trafficking</h3>
-    <span>trafficking@gamernetwork.net</span>
-    <CopyToClipboard text="trafficking@gamernetwork.net">
+    <span>trafficking@gamer-network.net</span>
+    <CopyToClipboard text="trafficking@gamer-network.net">
       <button className="email-address">
         <img src={clipboardIcon} alt="clipboard"></img>
         Copy to clipboard
