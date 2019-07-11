@@ -1,4 +1,4 @@
-- Ads adhere to LEAN guidelines
+- Ads adhere to <a href="http://www.iab.com/newadportfolio" target="_blank">LEAN guidelines</a>
 - Third-party tags must be supplied by Google Ad Manager’s recognised creative vendors
 - Ads are within our file size and dimension guidelines
 - Third-party tags are secure and work across https sites
@@ -8,3 +8,5 @@
 - GDPR compliant supply
 - High quality assets
 - As much lead time as possible prior to activation
+- Feedback and amends to be supplied in a clear and concise format
+- No autoplaying sound or expansion, unless initiated by user
