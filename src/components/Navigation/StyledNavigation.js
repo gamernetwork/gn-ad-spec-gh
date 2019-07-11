@@ -18,6 +18,7 @@ const StyledNavigation = styled.nav`
   .nav-logo {
     max-width: 180px;
     margin: 2.5rem auto 1rem auto;
+    cursor: pointer;
 
     @media only screen and (max-width: 1920px) {
       max-width: 150px;

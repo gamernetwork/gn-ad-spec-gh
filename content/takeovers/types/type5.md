@@ -1,6 +1,7 @@
 ---
 title: 'Type 5'
-sites: ['roadtovr.com']
+sites: ['GamesIndustry.biz']
+template: ''
 order: 5
 ---
 
@@ -13,17 +14,17 @@ order: 5
     <th>File type</th>
   </tr>
   <tr>
-    <td>Skin</td>
-    <td>2500x1316</td> 
+    <td>Large Leaderboard</td>
+    <td>980x180</td> 
+    <td>200kb</td>
     <td>400kb</td>
-    <td>n/a b</td>
-    <td>JPG</td>
+    <td>JPG, GIF, HTML5 or third-party tags</td>
   </tr>
   <tr>
-    <td>Leaderboard</td>
-    <td>728x90</td> 
-    <td>150kb</td>
-    <td>300kb</td>
-    <td>JPG, GIF, PNG,HTML5 or third-party tag</td>
+    <td>Halfpage</td>
+    <td>300x600</td> 
+    <td>200kb</td>
+    <td>400kb</td>
+    <td>JPG,GIF, PNG, HTML5 or third-party tag</td>
   </tr>
 </table>

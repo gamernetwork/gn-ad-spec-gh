@@ -1,6 +1,7 @@
 ---
 title: 'Email'
 sites: []
+template: ''
 order: 6
 ---
 

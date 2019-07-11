@@ -18,6 +18,7 @@ export default () => (
               frontmatter {
                 title
                 sites
+                template
               }
             }
           }
@@ -44,10 +45,17 @@ export default () => (
             className="table-wrapper"
             dangerouslySetInnerHTML={{ __html: takeoverType.html }}
           />
-          <button>
-            <img src={downloadIcon} alt="download" />
-            Download PSD Template
-          </button>
+          {takeoverType.frontmatter.title !== 'Type 5' &&
+            takeoverType.frontmatter.title !== 'Email' && (
+              <button
+                onClick={() =>
+                  window.open(takeoverType.frontmatter.template, '_blank')
+                }
+              >
+                <img src={downloadIcon} alt="download" />
+                Download PSD Template
+              </button>
+            )}
           <hr />
         </StyledTakeoverType>
       ))

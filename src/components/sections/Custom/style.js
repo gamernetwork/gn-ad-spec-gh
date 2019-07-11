@@ -16,6 +16,10 @@ const StyledCustomSection = styled(StyledSection)`
     justify-content: space-between;
     align-items: center;
 
+    @media only screen and (max-width: 1024px) {
+      display: flex;
+    }
+
     img {
       width: 0.75rem;
       margin-right: 0.5rem;

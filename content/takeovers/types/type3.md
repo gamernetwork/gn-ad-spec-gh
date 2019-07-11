@@ -1,6 +1,7 @@
 ---
 title: 'Type 3'
 sites: ['moddb.com', 'indiedb.com']
+template: 'https://1961908462.rsc.cdn77.org/gamercreativetemplates/Type3_GamerNetwork_Skin_Template.psd'
 order: 3
 ---
 

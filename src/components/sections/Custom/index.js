@@ -11,13 +11,17 @@ export default () => (
   <StaticQuery
     query={graphql`
       {
-        allMarkdownRemark(filter: { fileAbsolutePath: { regex: "/custom/" } }) {
+        allMarkdownRemark(
+          filter: { fileAbsolutePath: { regex: "/custom/" } }
+          sort: { fields: [frontmatter___order], order: ASC }
+        ) {
           edges {
             node {
               id
               html
               frontmatter {
                 unit
+                template
               }
             }
           }
@@ -43,7 +47,12 @@ export default () => (
               <img src={viewIcon} alt="view example" />
               View Live Example
             </button>
-            <button className="download-btn">
+            <button
+              onClick={() =>
+                window.open(customUnit.node.frontmatter.template, '_blank')
+              }
+              className="download-btn"
+            >
               <img src={downloadIcon} alt="download" />
               Download PSD Template
             </button>

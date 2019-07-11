@@ -51,7 +51,18 @@ class Navigation extends Component {
     const { hideNav } = this.state;
     return (
       <StyledNavigation aria-hidden={hideNav} onClick={this.toggleNav}>
-        <img className="nav-logo" src={Logo} alt="gamer network logo" />
+        <img
+          onClick={() =>
+            window.scrollTo({
+              top: 0,
+              left: 0,
+              behavior: 'smooth',
+            })
+          }
+          className="nav-logo"
+          src={Logo}
+          alt="gamer network logo"
+        />
         <WindowSizeListener
           onResize={windowSize => this.onResize(windowSize.windowWidth)}
         />

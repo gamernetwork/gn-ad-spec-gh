@@ -1,6 +1,9 @@
 ---
 unit: 'Desktop Fishbowl'
 image: './Farcry5_Desktop_Fishbowl.jpg'
+template: 'https://1961908462.rsc.cdn77.org/gamercreativetemplates/DesktopFishbowl_GamerNetwork_Template.psd'
+preview: ''
+order: 3
 ---
 
 <table>

@@ -1,6 +1,7 @@
 ---
 title: 'Type 2'
 sites: ['vg247.com']
+template: 'https://1961908462.rsc.cdn77.org/gamercreativetemplates/Type2_GamerNetwork_Skin_Template.psd'
 order: 2
 ---
 

@@ -81,6 +81,7 @@ table {
   font-size: 0.884rem;
   min-width: 700px;
   border-radius: 4px;
+  -webkit-overflow-scrolling: touch;
 }
 
 tr {

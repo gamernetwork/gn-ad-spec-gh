@@ -1,6 +1,9 @@
 ---
 unit: 'Fishbowl'
 image: './SMITE_Twitch_Prime_2019_Fishbowl_V2.jpg'
+template: 'https://1961908462.rsc.cdn77.org/gamercreativetemplates/Fishbowl_GamerNetwork_Template_2019.psd'
+preview: ''
+order: 1
 ---
 
 <table>

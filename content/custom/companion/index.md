@@ -1,6 +1,9 @@
 ---
 unit: 'Fishbowl Companion'
 image: './Sekiro_Companion_Showcase.jpg'
+template: 'https://1961908462.rsc.cdn77.org/gamercreativetemplates/Companion_GamerNetwork_Template_2019.psd'
+preview: ''
+order: 2
 ---
 
 <table>
