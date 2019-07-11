@@ -2,6 +2,7 @@ import React from 'react';
 import { StaticQuery, graphql } from 'gatsby';
 import StyledTakeoverType from './style';
 import downloadIcon from '../../../../assets/download_icon.png';
+import viewIcon from '../../../../assets/View_icon.png';
 
 export default () => (
   <StaticQuery
@@ -19,6 +20,7 @@ export default () => (
                 title
                 sites
                 template
+                preview
               }
             }
           }
@@ -45,17 +47,31 @@ export default () => (
             className="table-wrapper"
             dangerouslySetInnerHTML={{ __html: takeoverType.html }}
           />
+          {takeoverType.frontmatter.title !== 'Email' && (
+            <button
+              onClick={() =>
+                window.open(takeoverType.frontmatter.preview, '_blank')
+              }
+              className="live-btn"
+            >
+              <img src={viewIcon} alt="view example" />
+              View Live Example
+            </button>
+          )}
           {takeoverType.frontmatter.title !== 'Type 5' &&
             takeoverType.frontmatter.title !== 'Email' && (
-              <button
-                onClick={() =>
-                  window.open(takeoverType.frontmatter.template, '_blank')
-                }
-              >
-                <img src={downloadIcon} alt="download" />
-                Download PSD Template
-              </button>
+              <>
+                <button
+                  onClick={() =>
+                    window.open(takeoverType.frontmatter.template, '_blank')
+                  }
+                >
+                  <img src={downloadIcon} alt="download" />
+                  Download PSD Template
+                </button>
+              </>
             )}
+
           <hr />
         </StyledTakeoverType>
       ))

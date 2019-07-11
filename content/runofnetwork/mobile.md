@@ -14,8 +14,15 @@
     <td>JPG, GIF, HTML5 or third-party tags</td>
   </tr>
   <tr>
-    <td>Mobile Leaderboard</td>
+    <td>Mobile Leaderboard (1)</td>
     <td>320x100</td> 
+    <td>50kb</td>
+    <td>100kb</td>
+    <td>JPG,GIF, PNG, HTML5 or third-party tag</td>
+  </tr>
+    <tr>
+    <td>Mobile Leaderboard (2)</td>
+    <td>320x50</td> 
     <td>50kb</td>
     <td>100kb</td>
     <td>JPG,GIF, PNG, HTML5 or third-party tag</td>

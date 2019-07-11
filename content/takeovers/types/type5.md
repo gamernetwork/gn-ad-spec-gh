@@ -2,6 +2,7 @@
 title: 'Type 5'
 sites: ['GamesIndustry.biz']
 template: ''
+preview: 'https://gamesindustry.biz'
 order: 5
 ---
 

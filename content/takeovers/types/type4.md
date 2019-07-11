@@ -2,6 +2,7 @@
 title: 'Type 4'
 sites: ['roadtovr.com']
 template: 'https://1961908462.rsc.cdn77.org/gamercreativetemplates/Type4_GamerNetwork_Skin_Template.psd'
+preview: 'https://www.roadtovr.com'
 order: 4
 ---
 

@@ -2,6 +2,7 @@
 title: 'Type 1'
 sites: ['eurogamer.net', 'rockpapershotgun.com', 'usgamer.net', 'metabomb.com']
 template: 'https://1961908462.rsc.cdn77.org/gamercreativetemplates/Type1_GamerNetwork_Skin_Tempalte.psd'
+preview: 'https://www.eurogamer.net/'
 order: 1
 ---
 

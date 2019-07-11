@@ -18,7 +18,7 @@ export default () => (
     <span>contact@gamercreative.com</span>
     <CopyToClipboard text="contact@gamercreative.com">
       <button className="email-address">
-        <img src={clipboardIcon}></img>
+        <img src={clipboardIcon} alt="clipboard"></img>
         Copy to clipboard
       </button>
     </CopyToClipboard>
@@ -26,7 +26,7 @@ export default () => (
     <span>trafficking@gamernetwork.net</span>
     <CopyToClipboard text="trafficking@gamernetwork.net">
       <button className="email-address">
-        <img src={clipboardIcon}></img>
+        <img src={clipboardIcon} alt="clipboard"></img>
         Copy to clipboard
       </button>
     </CopyToClipboard>

@@ -8,4 +8,4 @@ When supplying ads directly to the trafficking team please allow two working day
 
 ### Gamer Creative:
 
-If Gamer Network's design studio, Gamer Creative, is required to produce the campaign creative, please provide assets with the following lead times prior to live dates to allow for design, build and approvals.
+If Gamer Network’s design studio, Gamer Creative, is required to produce the campaign creative, please provide assets with the following lead times prior to live dates to allow for design, build and approvals.

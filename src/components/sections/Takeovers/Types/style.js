@@ -20,9 +20,15 @@ const StyledTakeoverType = styled.div`
     position: relative;
     border-color: var(--c-purp);
     color: var(--c-purp);
-    display: flex;
+    display: inline-flex;
     justify-content: space-between;
     align-items: center;
+    margin-left: 1rem;
+
+    @media only screen and (max-width: 1024px) {
+      display: flex;
+      margin-left: 0;
+    }
 
     img {
       width: 0.75rem;
@@ -39,6 +45,24 @@ const StyledTakeoverType = styled.div`
     }
   }
 
+  .live-btn {
+    border-color: var(--c-blue);
+    color: var(--c-blue);
+    margin-left: 1rem;
+
+    img {
+      filter: brightness(0.75);
+    }
+
+    &:hover {
+      background: var(--c-blue);
+    }
+
+    @media only screen and (max-width: 1024px) {
+      margin-left: 0;
+    }
+  }
+
   .site-info {
     margin-bottom: 1.5rem;
     color: #515151;
@@ -49,6 +73,10 @@ const StyledTakeoverType = styled.div`
       color: #333;
       text-transform: none;
     }
+  }
+
+  .table-wrapper p {
+    margin-bottom: 1.5rem;
   }
 `;
 
