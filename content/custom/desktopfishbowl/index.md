@@ -1,8 +1,7 @@
 ---
 unit: 'Desktop Fishbowl'
-image: './Farcry5_Desktop_Fishbowl.jpg'
 template: 'https://1961908462.rsc.cdn77.org/gamercreativetemplates/DesktopFishbowl_GamerNetwork_Template.psd'
-preview: ''
+preview: 'https://www.eurogamer.net/?google_preview=XctupbPG5bQYq_-b6QUwq5vR8AWIAYCAgKDHhvHlDg&iu=43340684&gdfp_req=1&lineItemId=5008396786&creativeId=138272456800'
 order: 3
 ---
 

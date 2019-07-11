@@ -22,6 +22,7 @@ export default () => (
               frontmatter {
                 unit
                 template
+                preview
               }
             }
           }
@@ -43,7 +44,12 @@ export default () => (
               className="table-wrapper"
               dangerouslySetInnerHTML={{ __html: customUnit.node.html }}
             />
-            <button className="live-btn">
+            <button
+              onClick={() =>
+                window.open(customUnit.node.frontmatter.preview, '_blank')
+              }
+              className="live-btn"
+            >
               <img src={viewIcon} alt="view example" />
               View Live Example
             </button>
