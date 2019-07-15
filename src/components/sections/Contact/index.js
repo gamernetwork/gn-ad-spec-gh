@@ -38,5 +38,13 @@ export default () => (
         Copy to clipboard
       </button>
     </CopyToClipboard>
+    <h3>Programmatic</h3>
+    <span>programmatic@gamer-network.net</span>
+    <CopyToClipboard text="programmatic@gamer-network.net">
+      <button className="email-address">
+        <img src={clipboardIcon} alt="clipboard"></img>
+        Copy to clipboard
+      </button>
+    </CopyToClipboard>
   </StyledContactSection>
 );

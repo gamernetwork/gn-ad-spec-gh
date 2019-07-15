@@ -9,7 +9,7 @@
 - Webfonts should be supplied in all three formats for compatibility with all browsers (WOFF 2.0, WOFF 1.0 & EOT)
 - HTML5 ads must include a fallback font substitute to avoid flash of unstyled text effect
 - A backup static image of the ad in either GIF or JPEG format must be included in the file package in case of browser incompatibility
-- Must support Google Ad Manager clickTag guidelines.
+- Must support Google Ad Manager <a href="https://support.google.com/admanager/answer/7046799?hl=en" target="_blank">clickTag guidelines</a>
 - Please see the IAB HTML5 guidelines for detailed guidelines on HTML5 ad design
 - CPU usage should not exceed 30%.
 
@@ -21,7 +21,7 @@
 - Animation must start when the ad is in view
 - Flashing, high contrast or fast moving animations are not recommended
 
-### Video
+<h3 id="video-specs">Video</h3>
 
 - Host initiated video auto-play
   - Max duration: 15 seconds

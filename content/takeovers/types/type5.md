@@ -19,7 +19,7 @@ order: 5
     <td>980x180</td> 
     <td>200kb</td>
     <td>400kb</td>
-    <td>JPG, GIF, HTML5 or third-party tags</td>
+    <td>JPG, GIF, HTML5 or third-party tag</td>
   </tr>
   <tr>
     <td>Halfpage</td>

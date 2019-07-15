@@ -11,7 +11,7 @@
     <td>300x250</td> 
     <td>150kb</td>
     <td>300kb</td>
-    <td>JPG, GIF, HTML5 or third-party tags</td>
+    <td>JPG, GIF, HTML5 or third-party tag</td>
   </tr>
   <tr>
     <td>Mobile Leaderboard (1)</td>

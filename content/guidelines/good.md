@@ -2,7 +2,7 @@
 - Third-party tags must be supplied by Google Ad Manager’s recognised creative vendors
 - Ads are within our file size and dimension guidelines
 - Third-party tags are secure and work across https sites
-- HTML5 bundles follow clickTag guidelines
+- HTML5 bundles follow <a href="https://support.google.com/admanager/answer/7046799?hl=en" target="_blank">clickTag guidelines</a>
 - CPU usage does not exceed 30%
 - Well thought out calls to action that maximise the ad space
 - GDPR compliant supply
