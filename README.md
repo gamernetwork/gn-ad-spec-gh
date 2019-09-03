@@ -22,6 +22,10 @@ The basic idea here is:
 
 This project is deployed / hosted by Netlify. You can view it [here](https://app.netlify.com/sites/gn-ad-spec/overview).
 
-Any push to master will trigger a new deploy, any push to a branch will trigger a branch deploy.
+Any push to master will trigger a new deploy.
 
-This is a great guide to how Gatsby / Netlify work together! https://www.netlify.com/blog/2016/02/24/a-step-by-step-guide-gatsby-on-netlify/
+Any push to a branch will trigger a branch 'preview' deploy.
+
+This is a good resource for understanding Netlify deploys https://www.netlify.com/docs/continuous-deployment/
+
+This is a great guide to how Gatsby / Netlify work together https://www.netlify.com/blog/2016/02/24/a-step-by-step-guide-gatsby-on-netlify/
