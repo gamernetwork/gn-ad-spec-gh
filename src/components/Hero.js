@@ -35,7 +35,6 @@ const BackgroundSection = ({ className }) => (
       }
     `}
     render={data => {
-      // Set ImageData.
       const imageData = data.header.childImageSharp.fluid;
       return (
         <BackgroundImage
