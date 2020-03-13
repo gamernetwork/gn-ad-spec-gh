@@ -4,14 +4,15 @@
 
 - HTML5 ad file bundles must be packaged together for delivery into a compressed file format
 - Max number of host-initiated file requests must not exceed 10 files during initial file load. Any additional file weight may occur during subload after the load event has been dispatched by the window object
-- Ensure all files, including JS libraries that might be cached or assets hosted on a CDN, are included as part of the maximum file weight calculation.
+- Ensure all files, including JS libraries that might be cached or assets hosted on a CDN, are included as part of the maximum file weight calculation
 - User initiated file size: up to 10mb is allowed after user-initiated interaction
 - Webfonts should be supplied in all three formats for compatibility with all browsers (WOFF 2.0, WOFF 1.0 & EOT)
 - HTML5 ads must include a fallback font substitute to avoid flash of unstyled text effect
 - A backup static image of the ad in either GIF or JPEG format must be included in the file package in case of browser incompatibility
 - Must support Google Ad Manager <a href="https://support.google.com/admanager/answer/7046799?hl=en" target="_blank">clickTag guidelines</a>
 - Please see the IAB HTML5 guidelines for detailed guidelines on HTML5 ad design
-- CPU usage should not exceed 30%.
+- CPU usage should not exceed 30%
+- Please supply a .zip file with no single asset exceeding 1MB, so it complies with Google Ad Manager policy
 
 ### Animation requirements
 
