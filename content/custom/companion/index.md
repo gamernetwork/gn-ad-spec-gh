@@ -1,6 +1,6 @@
 ---
 unit: 'Fishbowl Companion'
-template: 'https://1961908462.rsc.cdn77.org/gamercreativetemplates/Companion_GamerNetwork_Template_2019.psd'
+template: 'https://1961908462.rsc.cdn77.org/gamercreativetemplates/Companion_Template_FishBowl_EG_2020.psd'
 preview: 'https://www.eurogamer.net/?google_preview=XVVkZyRQ450Y5_-b6QUw55vR8AWIAYCAgKDHhvGd7gE&iu=43340684&gdfp_req=1&lineItemId=5096188238&creativeId=138274603019'
 order: 2
 ---
