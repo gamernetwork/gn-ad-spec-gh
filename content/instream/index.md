@@ -36,7 +36,7 @@ YouTube inventory has the following two options for pre-roll:
   </table>
 </div>
 
-With supply please ensure that the video is with us no longer than 48 hours in advance of the campaign start date due to Google’s YT QA process.
+With supply please ensure that the video is with us no less than 48 hours in advance of the campaign start date due to Google’s YT QA process.
 
 The preferred format for supply is MP4 and VAST tags are subject to the extended QA process.
 

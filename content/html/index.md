@@ -2,7 +2,7 @@ All of our ad units support the use of HTML or Rich Media banners. If suppling H
 
 ### HTML5 Banner Requirements
 
-- HTML5 ad banners must be a supplied as a zip that is less than 1MB
+- HTML5 ad banners must be a supplied as a zip that is less than 900KB
 - Ensure all files, including JS libraries hosted on a CDN are included in the maximum file size calculation
 - Must support Google Ad Manager <a href="https://support.google.com/admanager/answer/7046799?hl=en" target="_blank">clickTag guidelines</a>
 - CPU usage should not exceed 30%
