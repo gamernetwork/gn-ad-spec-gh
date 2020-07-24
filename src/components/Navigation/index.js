@@ -71,12 +71,12 @@ class Navigation extends Component {
             'introduction',
             'lead-times',
             'guidelines',
-            'takeovers',
-            'run-of-network',
             'html5',
+            'takeovers',
             'custom-units',
-            'programmatic',
+            'run-of-network',
             'in-stream',
+            'programmatic',
             'compliance',
             'contact',
           ]}
@@ -95,28 +95,28 @@ class Navigation extends Component {
             <p>Guidelines</p>
           </li>
           <li>
-            <a href="#takeovers" aria-label="Jump to takeovers" />
-            <p>Takeovers</p>
-          </li>
-          <li>
-            <a href="#run-of-network" aria-label="Jump to run of network" />
-            <p>Run Of Network</p>
-          </li>
-          <li>
             <a href="#html5" aria-label="Jump to html5" />
             <p>HTML5</p>
           </li>
           <li>
+            <a href="#takeovers" aria-label="Jump to takeovers" />
+            <p>Takeovers</p>
+          </li> 
+          <li>
             <a href="#custom-units" aria-label="Jump to custom units" />
             <p>Custom Units</p>
+          </li> 
+          <li>
+            <a href="#run-of-network" aria-label="Jump to run of network" />
+            <p>IAB Units</p>
+          </li>
+          <li>
+            <a href="#in-stream" aria-label="Jump to in-stream" />
+            <p>Video</p>
           </li>
           <li>
             <a href="#programmatic" aria-label="Jump to programmatic" />
             <p>Programmatic</p>
-          </li>
-          <li>
-            <a href="#in-stream" aria-label="Jump to in-stream" />
-            <p>In-Stream</p>
           </li>
           <li>
             <a href="#compliance" aria-label="Jump to compliance" />

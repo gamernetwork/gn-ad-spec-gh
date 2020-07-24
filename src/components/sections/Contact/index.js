@@ -15,36 +15,12 @@ export default () => (
       following email addresses:
     </p>
     <h3>Sales</h3>
-    <span>sales@gamer-network.net</span>
-    <CopyToClipboard text="sales@gamer-network.net">
-      <button className="email-address">
-        <img src={clipboardIcon} alt="clipboard"></img>
-        Copy to clipboard
-      </button>
-    </CopyToClipboard>
-    <h3>Creative</h3>
-    <span>contact@gamercreative.com</span>
-    <CopyToClipboard text="contact@gamercreative.com">
-      <button className="email-address">
-        <img src={clipboardIcon} alt="clipboard"></img>
-        Copy to clipboard
-      </button>
-    </CopyToClipboard>
-    <h3>Trafficking</h3>
-    <span>trafficking@gamer-network.net</span>
-    <CopyToClipboard text="trafficking@gamer-network.net">
-      <button className="email-address">
-        <img src={clipboardIcon} alt="clipboard"></img>
-        Copy to clipboard
-      </button>
-    </CopyToClipboard>
+    <span><a href="mailto:sales@gamer-network.net">sales@gamer-network.net</a></span>
+    <h3>In-house Design</h3>
+    <span><a href="mailto:team@gamercreative.com">team@gamercreative.com</a></span>
+    <h3>Ad Operations</h3>
+    <span><a href="mailto:trafficking@gamer-network.net">trafficking@gamer-network.net</a></span>
     <h3>Programmatic</h3>
-    <span>programmatic@gamer-network.net</span>
-    <CopyToClipboard text="programmatic@gamer-network.net">
-      <button className="email-address">
-        <img src={clipboardIcon} alt="clipboard"></img>
-        Copy to clipboard
-      </button>
-    </CopyToClipboard>
+    <span><a href="mailto:programmatic@gamer-network.net">programmatic@gamer-network.net</a></span>
   </StyledContactSection>
 );

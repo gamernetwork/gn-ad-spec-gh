@@ -24,19 +24,23 @@ export default () => (
     render={data => (
       <StyledRONSection>
         <a className="anchor-point" id="run-of-network" />
-        <h2>Run Of Network</h2>
+        <h2>IAB Units</h2>
         <p>
           The following ads sizes run across all Gamer Network sites where those
           sizes are available.
         </p>
-        <h3>Desktop</h3>
+        <p>
+          Please refer to our <a href="#html5">HTML5 Guidelines</a> if supplying
+          HTML5 creatives
+        </p>
+        <h3>Mobile</h3>
         <div
           className="table-wrapper ron-table"
           dangerouslySetInnerHTML={{
             __html: data.allMarkdownRemark.edges[0].node.html,
           }}
         />
-        <h3>Mobile</h3>
+        <h3>Desktop</h3>
         <div
           className="table-wrapper ron-table"
           dangerouslySetInnerHTML={{
@@ -47,15 +51,6 @@ export default () => (
           <strong>*For video ads polite load is max 1.5mb</strong>
         </p>
         <p>**GamesIndustry.biz only</p>
-        <p>
-          <strong>
-            All ads can be created in house via the Gamer Creative offering.
-          </strong>
-        </p>
-        <p>
-          Please refer to our <a href="#html5">HTML5 Guidelines</a> if supplying
-          HTML5 creatives
-        </p>
       </StyledRONSection>
     )}
   />

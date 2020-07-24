@@ -21,12 +21,12 @@ const IndexPage = () => {
         <Intro />
         <LeadTimes />
         <GuideLines />
-        <Takeovers />
-        <RunOfNetwork />
         <HTML5 />
+        <Takeovers />
         <Custom />
-        <Programatic />
+        <RunOfNetwork /> 
         <Instream />
+        <Programatic />
         <Compliance />
         <Contact />
       </LayoutWrapper>
