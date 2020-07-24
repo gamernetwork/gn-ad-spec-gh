@@ -19,7 +19,7 @@ export default () => (
     render={data => (
       <StyledInStreamSection>
         <a className="anchor-point" id="in-stream" />
-        <h2>In-Stream Video</h2>
+        <h2>Video</h2>
         <div
           dangerouslySetInnerHTML={{
             __html: data.file.childMarkdownRemark.html,

@@ -34,8 +34,12 @@ export default () => (
         <a className="anchor-point" id="custom-units" />
         <h2>Custom Units</h2>
         <p>
-          Gamer Network offers rich media ads which differ from standard IAB
+          Gamer Network offers custom ad formats which differ from standard IAB
           sizes.
+        </p>
+        <p>
+          Please refer to our <a href="#html5">HTML5 Guidelines</a> if supplying
+          HTML5 creatives
         </p>
         {data.allMarkdownRemark.edges.map(customUnit => (
           <div key={customUnit.node.id} className="custom-unit-wrapper">
@@ -44,15 +48,6 @@ export default () => (
               className="table-wrapper"
               dangerouslySetInnerHTML={{ __html: customUnit.node.html }}
             />
-            <button
-              onClick={() =>
-                window.open(customUnit.node.frontmatter.preview, '_blank')
-              }
-              className="live-btn"
-            >
-              <img src={viewIcon} alt="view example" />
-              View Live Example
-            </button>
             <button
               onClick={() =>
                 window.open(customUnit.node.frontmatter.template, '_blank')

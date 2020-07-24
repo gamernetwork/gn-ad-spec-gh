@@ -47,17 +47,6 @@ export default () => (
             className="table-wrapper"
             dangerouslySetInnerHTML={{ __html: takeoverType.html }}
           />
-          {takeoverType.frontmatter.title !== 'Email' && (
-            <button
-              onClick={() =>
-                window.open(takeoverType.frontmatter.preview, '_blank')
-              }
-              className="live-btn"
-            >
-              <img src={viewIcon} alt="view example" />
-              View Live Example
-            </button>
-          )}
           {takeoverType.frontmatter.title !== 'Type 5' &&
             takeoverType.frontmatter.title !== 'Email' && (
               <>
