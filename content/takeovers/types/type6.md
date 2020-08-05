@@ -3,7 +3,7 @@ title: 'Email'
 sites: []
 template: ''
 preview: ''
-order: 6
+order: 7
 ---
 
 The email banner appears in GamesIndustry.biz’s newsletter offerings

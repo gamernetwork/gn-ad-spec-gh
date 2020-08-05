@@ -1,7 +1,7 @@
 ---
 title: 'Type 1'
 sites: ['eurogamer.net', 'rockpapershotgun.com', 'usgamer.net', 'metabomb.com', 'nintendolife.com', 'pushsquare.com', 'purexbox.com', 'videogameschronicle.com']
-template: 'https://1961908462.rsc.cdn77.org/gamercreativetemplates/Type1_GamerNetwork_Skin_Tempalte.psd'
+template: 'https://1961908462.rsc.cdn77.org/gamercreativetemplates/Type1_GamerNetwork_Skin_Template.psd'
 preview: 'https://www.eurogamer.net/'
 order: 1
 ---
