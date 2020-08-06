@@ -33,14 +33,14 @@ export default () => (
           Please refer to our <a href="#html5">HTML5 Guidelines</a> if supplying
           HTML5 creatives
         </p>
-        <h3>Mobile</h3>
+        <h3>Desktop</h3>
         <div
           className="table-wrapper ron-table"
           dangerouslySetInnerHTML={{
             __html: data.allMarkdownRemark.edges[0].node.html,
           }}
         />
-        <h3>Desktop</h3>
+        <h3>Mobile</h3>
         <div
           className="table-wrapper ron-table"
           dangerouslySetInnerHTML={{
