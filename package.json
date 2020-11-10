@@ -1,5 +1,5 @@
 {
-  "name": "gn-ad-spec",
+  "name": "gn-ad-spec-gh",
   "private": true,
   "description": "Ad Spec site for Gamer Network sites",
   "version": "0.1.0",
@@ -50,9 +50,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gamernetwork/gn-ad-spec"
+    "url": "https://github.com/gamernetwork/gn-ad-spec-gh"
   },
   "bugs": {
-    "url": "https://github.com/gamernetwork/gn-ad-spec/issues"
+    "url": "https://github.com/gamernetwork/gn-ad-spec-gh/issues"
   }
 }
