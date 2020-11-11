@@ -24,7 +24,7 @@ const IndexPage = () => {
         <HTML5 />
         <Takeovers />
         <Custom />
-        <RunOfNetwork /> 
+        <RunOfNetwork />
         <Instream />
         <Programatic />
         <Compliance />

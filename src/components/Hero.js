@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import BackgroundImage from 'gatsby-background-image';
 import Img from 'gatsby-image';
-import { StaticQuery } from 'gatsby';
+import { StaticQuery, graphql } from 'gatsby';
 
 const BackgroundSection = ({ className }) => (
   <StaticQuery
