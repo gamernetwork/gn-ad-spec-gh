@@ -6,9 +6,9 @@ This project uses [Gatsby.js](https://www.gatsbyjs.org/), a static site generato
 
 ### Installation
 
-- git clone
-- npm install
-- gatsby develop
+- `git clone`
+- `npm install`
+- `gatsby develop`
 
 ### How it works
 
@@ -20,12 +20,6 @@ The basic idea here is:
 
 ## Deployment
 
-This project is deployed / hosted by Netlify. You can view it [here](https://app.netlify.com/sites/gn-ad-spec/overview).
+Hosted on GitHub Pages.
 
-Any push to master will trigger a new deploy.
-
-Any push to a branch will trigger a branch 'preview' deploy.
-
-This is a good resource for understanding Netlify deploys https://www.netlify.com/docs/continuous-deployment/
-
-This is a great guide to how Gatsby / Netlify work together https://www.netlify.com/blog/2016/02/24/a-step-by-step-guide-gatsby-on-netlify/
+- `npm run deploy` will trigger a Gatsby build and push the build folder to a 'gh-pages' branch, which will go live.
