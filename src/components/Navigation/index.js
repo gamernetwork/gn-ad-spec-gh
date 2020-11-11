@@ -1,7 +1,7 @@
 /* eslint-disable jsx-a11y/anchor-has-content */
 /* eslint-disable jsx-a11y/anchor-is-valid */
 
-import React, { useState } from 'react';
+import React, { Component } from 'react';
 import { Link } from 'gatsby';
 import WindowSizeListener from 'react-window-size-listener';
 import Scrollspy from 'react-scrollspy';
@@ -10,108 +10,131 @@ import Logo from '../../assets/side_Nav_Logo.png';
 
 let initWindowWidth;
 
-try {
-  initWindowWidth = window.innerWidth;
-} catch (e) {
-  console.log(e);
+if (typeof window !== `undefined`) {
+  try {
+    initWindowWidth = window.innerWidth;
+  } catch (e) {
+    console.log(e);
+  }
 }
 
-function Navigation() {
-  const [windowWidth, setWindowWidth] = useState(initWindowWidth);
-  const [hideNav, setHideNav] = useState(null);
-
-  const onResize = windowSize => {
-    setWindowWidth(windowSize);
-    windowWidth <= 1024 ? setHideNav(true) : setHideNav(false);
+class Navigation extends Component {
+  state = {
+    windowWidth: initWindowWidth,
+    hideNav: null,
   };
 
-  const toggleNav = e => {
+  onResize = windowSize => {
+    this.setState(
+      {
+        windowWidth: windowSize,
+      },
+      () => {
+        const { windowWidth } = this.state;
+        let hideNav;
+        windowWidth <= 1024 ? (hideNav = true) : (hideNav = false);
+        this.setState({
+          hideNav,
+        });
+      }
+    );
+  };
+
+  toggleNav = e => {
+    const { hideNav, windowWidth } = this.state;
     if (windowWidth >= 1024) {
       return;
     }
-    setHideNav(!setHideNav);
+    this.setState({
+      hideNav: !hideNav,
+    });
   };
 
-  return (
-    <StyledNavigation aria-hidden={hideNav} onClick={toggleNav}>
-      <img
-        onClick={() =>
-          window.scrollTo({
-            top: 0,
-            left: 0,
-            behavior: 'smooth',
-          })
-        }
-        className="nav-logo"
-        src={Logo}
-        alt="gamer network logo"
-      />
-      <WindowSizeListener
-        onResize={windowSize => onResize(windowSize.windowWidth)}
-      />
-      <Scrollspy
-        items={[
-          'introduction',
-          'lead-times',
-          'guidelines',
-          'html5',
-          'takeovers',
-          'custom-units',
-          'run-of-network',
-          'in-stream',
-          'programmatic',
-          'compliance',
-          'contact',
-        ]}
-        currentClassName="is-current"
-      >
-        <li>
-          <Link to="#introduction" aria-label="Jump to introduction" />
-          <p>Introduction</p>
-        </li>
-        <li>
-          <Link to="#lead-times" aria-label="Jump to lead times" />
-          <p>Lead Times</p>
-        </li>
-        <li>
-          <Link to="#guidelines" aria-label="Jump to guidelines" />
-          <p>Guidelines</p>
-        </li>
-        <li>
-          <Link to="#html5" aria-label="Jump to html5" />
-          <p>HTML5</p>
-        </li>
-        <li>
-          <Link to="#takeovers" aria-label="Jump to takeovers" />
-          <p>Takeovers</p>
-        </li>
-        <li>
-          <Link to="#custom-units" aria-label="Jump to custom units" />
-          <p>Custom Units</p>
-        </li>
-        <li>
-          <Link to="#run-of-network" aria-label="Jump to run of network" />
-          <p>IAB Units</p>
-        </li>
-        <li>
-          <Link to="#in-stream" aria-label="Jump to in-stream" />
-          <p>Video</p>
-        </li>
-        <li>
-          <Link to="#programmatic" aria-label="Jump to programmatic" />
-          <p>Programmatic</p>
-        </li>
-        <li>
-          <Link to="#compliance" aria-label="Jump to compliance" />
-          <p>Compliance</p>
-        </li>
-        <li>
-          <Link to="#contact" aria-label="Jump to contact" />
-          <p>Contact</p>
-        </li>
-      </Scrollspy>
-    </StyledNavigation>
-  );
+  render() {
+    const { hideNav } = this.state;
+    return (
+      <StyledNavigation aria-hidden={hideNav} onClick={this.toggleNav}>
+        <img
+          onClick={() =>
+            typeof window !== `undefined`
+              ? window.scrollTo({
+                  top: 0,
+                  left: 0,
+                  behavior: 'smooth',
+                })
+              : ''
+          }
+          className="nav-logo"
+          src={Logo}
+          alt="gamer network logo"
+        />
+        <WindowSizeListener
+          onResize={windowSize => this.onResize(windowSize.windowWidth)}
+        />
+        <Scrollspy
+          items={[
+            'introduction',
+            'lead-times',
+            'guidelines',
+            'html5',
+            'takeovers',
+            'custom-units',
+            'run-of-network',
+            'in-stream',
+            'programmatic',
+            'compliance',
+            'contact',
+          ]}
+          currentClassName="is-current"
+        >
+          <li>
+            <Link to="#introduction" aria-label="Jump to introduction" />
+            <p>Introduction</p>
+          </li>
+          <li>
+            <Link to="#lead-times" aria-label="Jump to lead times" />
+            <p>Lead Times</p>
+          </li>
+          <li>
+            <Link to="#guidelines" aria-label="Jump to guidelines" />
+            <p>Guidelines</p>
+          </li>
+          <li>
+            <Link to="#html5" aria-label="Jump to html5" />
+            <p>HTML5</p>
+          </li>
+          <li>
+            <Link to="#takeovers" aria-label="Jump to takeovers" />
+            <p>Takeovers</p>
+          </li>
+          <li>
+            <Link to="#custom-units" aria-label="Jump to custom units" />
+            <p>Custom Units</p>
+          </li>
+          <li>
+            <Link to="#run-of-network" aria-label="Jump to run of network" />
+            <p>IAB Units</p>
+          </li>
+          <li>
+            <Link to="#in-stream" aria-label="Jump to in-stream" />
+            <p>Video</p>
+          </li>
+          <li>
+            <Link to="#programmatic" aria-label="Jump to programmatic" />
+            <p>Programmatic</p>
+          </li>
+          <li>
+            <Link to="#compliance" aria-label="Jump to compliance" />
+            <p>Compliance</p>
+          </li>
+          <li>
+            <Link to="#contact" aria-label="Jump to contact" />
+            <p>Contact</p>
+          </li>
+        </Scrollspy>
+      </StyledNavigation>
+    );
+  }
 }
 
 export default Navigation;
