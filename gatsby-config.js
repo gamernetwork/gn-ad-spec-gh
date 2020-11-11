@@ -36,5 +36,4 @@ module.exports = {
     // styled components
     `gatsby-plugin-styled-components`,
   ],
-  pathPrefix: '/gn-ad-spec-gh',
 };

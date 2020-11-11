@@ -22,4 +22,4 @@ The basic idea here is:
 
 Hosted on GitHub Pages.
 
-- `npm run deploy` will trigger a Gatsby build and push the build folder to a 'gh-pages' branch, which will go live.
+- `npm run deploy` will trigger a Gatsby build, which will go live.
