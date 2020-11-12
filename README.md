@@ -2,6 +2,8 @@
 
 This project uses [Gatsby.js](https://www.gatsbyjs.org/), a static site generator based on React.
 
+GitHub Pages forces deployment of user/organization pages to the master branch - so what is on the master branch is what is live [here](https://ads.gamer-network.net/). The master branch contains the output of the Gatsby build process.
+
 ## Development
 
 ### Installation
@@ -22,4 +24,4 @@ The basic idea here is:
 
 Hosted on GitHub Pages.
 
-- `npm run deploy` will trigger a Gatsby build, which will go live.
+- `npm run deploy` will trigger a Gatsby build, which will be pushed to master, and go live.
